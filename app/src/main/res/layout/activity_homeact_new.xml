@@ -1,0 +1,255 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+  >
+
+    <!--new-->
+    <LinearLayout
+        android:id="@+id/linerfortime"
+        android:layout_width="match_parent"
+        android:layout_height="80sp"
+        android:background="#ADE3F0"
+
+        android:orientation="horizontal"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp">
+
+        <ImageView
+            android:id="@+id/merchantname"
+            android:layout_width="70dp"
+            android:layout_height="40sp"
+            android:layout_gravity="left|center_vertical"
+            android:src="@drawable/exhibitlogoa" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1">
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:text="Crates"
+                android:textColor="@color/btn_text_sky_blue"
+                android:textSize="@dimen/headersname" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="wrap_content"
+            android:layout_height="match_parent"
+            android:gravity="center"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/imgvw_client_logo"
+                android:layout_width="70dp"
+                android:layout_height="40sp"
+
+                />
+
+
+            <TextView
+                android:id="@+id/txtvw_client_name"
+                android:layout_width="70dp"
+                android:layout_height="wrap_content"
+                android:layout_gravity="center"
+                android:gravity="center"
+                android:textColor="@color/btn_text_sky_blue"
+                android:textSize="12sp"
+                android:visibility="gone" />
+
+        </LinearLayout>
+
+
+        <ImageView
+            android:id="@+id/homeacti"
+            android:layout_width="35dp"
+            android:layout_height="35dp"
+            android:layout_gravity="end|center_vertical"
+            android:layout_marginLeft="5dp"
+            android:layout_marginRight="10dp"
+            android:src="@drawable/homeblue"
+
+            android:visibility="visible" />
+
+    </LinearLayout>
+    <!--new-->
+    <!--old-->
+    <!--<LinearLayout-->
+        <!--android:id="@+id/relativeLayout1"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content">-->
+
+        <!--<LinearLayout-->
+            <!--android:id="@+id/linerfortime"-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:gravity="center_vertical"-->
+            <!--android:orientation="horizontal">-->
+
+            <!--<ImageView-->
+                <!--android:id="@+id/merchantname"-->
+                <!--android:layout_width="100dp"-->
+                <!--android:layout_height="40dp"-->
+                <!--android:layout_gravity="left" />-->
+
+        <!--</LinearLayout>-->
+    <!--</LinearLayout>-->
+    <!--<LinearLayout-->
+        <!--android:id="@+id/eusername"-->
+        <!--android:layout_width="match_parent"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_below="@+id/relativeLayout1"-->
+        <!--android:gravity="center_vertical"-->
+        <!--android:orientation="horizontal">-->
+
+        <!--<LinearLayout-->
+            <!--android:layout_width="match_parent"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:layout_weight="1">-->
+
+            <!--<ImageView-->
+                <!--android:id="@+id/missing"-->
+                <!--android:layout_width="100sp"-->
+                <!--android:layout_height="50sp"-->
+                <!--android:gravity="left"-->
+                <!--android:visibility="visible" />-->
+
+            <!--<TextView-->
+                <!--android:id="@+id/textView1"-->
+                <!--android:layout_width="wrap_content"-->
+                <!--android:layout_height="wrap_content"-->
+
+                <!--android:text=""-->
+                <!--android:textAppearance="?android:attr/textAppearanceMedium"-->
+                <!--android:textSize="@dimen/clientname"-->
+                <!--android:visibility="invisible" />-->
+
+
+        <!--</LinearLayout>-->
+
+
+        <!--<android.widget.ImageView-->
+            <!--android:id="@+id/homeacti"-->
+            <!--android:layout_width="35dp"-->
+            <!--android:layout_height="35dp"-->
+            <!--android:layout_alignParentRight="true"-->
+            <!--android:layout_centerVertical="true"-->
+            <!--android:layout_marginRight="5dp"-->
+            <!--android:src="@drawable/homeblue" />-->
+
+
+    <!--</LinearLayout>-->
+    <!--old-->
+
+
+    <LinearLayout
+        android:id="@+id/home"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/eusername"
+        android:layout_marginTop="5sp">
+
+
+        <TextView
+            android:id="@+id/homescreen"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_alignParentStart="true"
+
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:gravity="center_horizontal"
+            android:text="Select the Crates required for this job"
+            android:textColor="@color/text_color_new" />
+        <!-- android:text="Select Crates " -->
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:id="@+id/relativelist"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+
+        android:orientation="vertical">
+
+      <!--  <ListView
+            android:id="@+id/listView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:divider="@null"
+            android:dividerHeight="0dp"
+            android:layout_marginTop="10sp"
+            android:scrollbars="vertical" />-->
+
+        <android.support.v7.widget.RecyclerView
+            android:id="@+id/listView1"
+            android:scrollbars="vertical"
+            android:layout_marginTop="10sp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"/>
+        <TextView
+            android:id="@+id/text_noCrate"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center"
+            android:gravity="center"
+            android:text="No crates available !"
+            android:textSize="18sp"
+            android:visibility="gone" />
+
+    </LinearLayout>
+
+
+    <LinearLayout
+
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="10dp"
+        android:gravity="center_vertical"
+        android:orientation="horizontal">
+
+        <EditText
+            android:id="@+id/et_search"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:layout_weight="1"
+            android:background="@drawable/round_corner_btn2_new"
+
+            android:drawableLeft="@drawable/searcher"
+            android:focusable="false"
+            android:focusableInTouchMode="true"
+            android:maxLines="1"
+            android:paddingLeft="15dp"
+            android:paddingTop="5dp"
+            android:paddingBottom="5dp"
+
+            android:textColorHint="@color/btn_text_sky_blue">
+
+        </EditText>
+
+        <ImageView
+            android:id="@+id/img_search"
+            android:layout_width="25dp"
+            android:layout_height="25dp"
+            android:layout_alignTop="@+id/editText1"
+            android:layout_alignRight="@+id/editText1"
+            android:layout_alignBottom="@+id/editText1"
+            android:layout_marginRight="5dp"
+            android:src="@drawable/searcher" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

@@ -1,0 +1,177 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+    <RelativeLayout 
+        android:layout_height="fill_parent"
+        android:layout_width="wrap_content"
+        android:paddingTop="10sp"
+        android:layout_marginTop="10sp">
+        <LinearLayout 
+            android:id="@+id/itempis"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10sp"
+            android:weightSum="3"
+            >
+
+            <TextView
+                android:id="@+id/itencount"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:text="Item 1"
+                
+                android:gravity="center|center_horizontal"
+                android:textSize="@dimen/createhometest"
+                android:background="@color/grey"
+                android:layout_marginRight="10sp"
+                android:textColor="@android:color/white"
+                android:layout_weight="1" />
+             <EditText
+        android:id="@+id/itemdetails"
+        android:layout_width="0sp"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_weight="1.5"
+        android:maxLines="2"
+        android:hint="Item"
+  
+        >
+
+    
+    </EditText>
+
+    <TextView
+        android:id="@+id/uploadpict"
+        android:layout_width="wrap_content"
+        android:layout_height="fill_parent"
+        android:layout_alignBaseline="@+id/editText1"
+        android:layout_alignBottom="@+id/editText1"
+        android:layout_alignParentRight="true"
+        android:layout_weight=".5"
+        android:background="@color/grey"
+        android:textColor="@android:color/white"
+        android:gravity="center"
+        android:layout_marginLeft="10sp"
+        android:textSize="@dimen/createhometest"
+		android:paddingRight="5dp"
+        android:text="Upload Picture" />
+            
+        </LinearLayout>
+        
+        
+        
+         <LinearLayout 
+            android:id="@+id/itempis1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/itempis"
+            android:layout_marginTop="15sp"
+            android:weightSum="3"
+            android:orientation="horizontal"
+            >
+
+            <TextView
+                android:id="@+id/itencount1"
+                android:layout_width="0sp"
+                android:layout_height="fill_parent"
+                android:text="Description"
+                  android:layout_weight="1"
+                android:gravity="center"
+              android:layout_gravity="left"
+                android:textSize="@dimen/createhometest"
+                android:background="@drawable/gradientimage"
+                android:layout_marginRight="10sp"
+                android:textColor="@android:color/black"
+               />
+             <EditText
+        android:id="@+id/itemdetails1"
+        android:layout_width="0sp"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_weight="2"
+        android:maxLines="2"
+  	android:hint="Description"
+        >
+
+    
+    </EditText>
+
+   
+            
+        </LinearLayout>
+        
+         
+            <LinearLayout 
+            android:id="@+id/itempis2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:weightSum="4"
+            android:layout_marginTop="15sp"
+            android:layout_below="@+id/itempis1"
+            >
+
+            <TextView
+                android:id="@+id/itencount2"
+                android:layout_width="0sp"
+                android:layout_height="fill_parent"
+                android:text="Estimated material cost:"
+                android:layout_gravity="left"
+                android:gravity="center|center_horizontal"
+                android:textSize="@dimen/createhometest"
+                android:background="@drawable/gradientimage"
+                android:layout_marginRight="10sp"
+                
+                	android:textColor="@android:color/black"
+                android:layout_weight="1" />
+             <EditText
+        android:id="@+id/itemdetails2"
+        android:layout_width="0sp"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_weight="1"
+        android:maxLines="2"
+  		android:hint="Cost"
+  		android:inputType="numberDecimal"
+        >
+
+    
+    </EditText>
+
+    <TextView
+        android:id="@+id/uploadpict2"
+        android:layout_width="0sp"
+        android:layout_height="fill_parent"
+        android:layout_alignBaseline="@+id/editText1"
+        android:layout_alignBottom="@+id/editText1"
+        android:layout_alignParentRight="true"
+        android:layout_weight="1"
+        android:background="@drawable/gradientimage"
+        
+        android:gravity="center"
+        android:layout_marginLeft="10sp"
+        android:textSize="@dimen/createhometest"
+	android:textColor="@android:color/black"
+        android:text="Labour Hours" />
+     <EditText
+        android:id="@+id/itemdetails3"
+        android:layout_width="0sp"
+        android:layout_height="match_parent"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_weight="1"
+  android:maxLines="2"
+  android:hint="Hours"
+  android:inputType="numberDecimal"
+        />
+            
+        </LinearLayout>
+    </RelativeLayout>
+
+   
+
+</RelativeLayout>

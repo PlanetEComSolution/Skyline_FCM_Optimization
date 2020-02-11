@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto">
+
+    <!-- <item
+         android:id="@+id/spinner"
+         android:title="@string/Select_Job"
+         app:actionViewClass="android.widget.Spinner"
+         app:showAsAction="ifRoom" />-->
+
+    <item android:id="@+id/menu_upload"
+        android:title="@string/upload"
+        android:icon="@drawable/ic_cloud_upload_black_24dp"
+        app:showAsAction="ifRoom"/>
+    <item
+        android:id="@+id/spinner"
+        android:title="@string/Select_Job"
+        app:showAsAction="always|withText" />
+
+</menu>

@@ -1,0 +1,29 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context="planet.info.skyline.old_activity.NonBillable_List_Activity">
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="60dp"
+        android:textSize="18dp"
+        android:background="@color/grey"
+        android:textColor="#fff"
+        android:text="Skyline Houston Job(s) List"
+        android:gravity="center"/>
+
+    <ListView
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:id="@+id/listView"
+        android:layout_marginTop="60dp"
+        android:scrollbars="none">
+
+    </ListView>
+
+</RelativeLayout>

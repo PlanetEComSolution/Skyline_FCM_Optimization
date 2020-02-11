@@ -1,0 +1,90 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:id="@+id/ln"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center"
+
+    android:paddingTop="50dp"
+    android:paddingBottom="50dp"
+    >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" >
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:padding="15dp"
+
+                >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+
+                    android:background="@drawable/corner_round"
+                    android:orientation="vertical"
+                   android:paddingBottom="15dp"
+                    >
+
+                    <LinearLayout
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:gravity="center"
+                        android:orientation="horizontal"
+                        android:padding="5dp" >
+
+                        <!--<com.android.volley.toolbox.NetworkImageView
+                            android:id="@+id/masonPic"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:scaleType="fitCenter"
+                            ></com.android.volley.toolbox.NetworkImageView>-->
+                        <ImageView
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:id="@+id/masonPic"
+                            android:layout_alignParentTop="true"
+                            android:layout_centerHorizontal="true">
+                        </ImageView>
+
+
+                    </LinearLayout>
+
+                    <!--  -->
+
+
+                    <!--  -->
+
+                </LinearLayout>
+
+                <!--  -->
+
+
+                <!--  -->
+
+
+            </FrameLayout>
+
+            <ImageView
+                android:id="@+id/cross"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="right|top"
+                android:contentDescription="s"
+                android:src="@drawable/error_1"
+                android:visibility="visible"
+                 />
+        </FrameLayout>
+    </FrameLayout>
+
+</RelativeLayout>

@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <LinearLayout
+        android:id="@+id/row_jobFile"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:gravity="center_vertical"
+        android:paddingTop="5dp">
+
+        <Button
+            android:id="@+id/serial_no"
+            android:layout_width="15dp"
+            android:layout_height="15dp"
+            android:background="@android:color/transparent"
+            android:gravity="top"
+            android:text="1"
+            android:textColor="#000"
+            android:textSize="10dp"
+            android:textStyle="bold" />
+
+        <TextView
+            android:id="@+id/source"
+            android:layout_width="45dp"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/serial_no"
+            android:text="Markiting"
+            android:textSize="10dp" />
+
+        <TextView
+            android:id="@+id/user"
+            android:layout_width="55dp"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/source"
+            android:gravity="center"
+            android:text="Aman kaushik"
+            android:textSize="10dp" />
+
+        <TextView
+            android:id="@+id/flie_upload"
+            android:layout_width="80dp"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/user"
+            android:gravity="center_vertical"
+            android:text="Markiting painted item given by doctors"
+            android:textSize="10dp" />
+
+        <TextView
+            android:id="@+id/date_upload"
+            android:layout_width="60dp"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/flie_upload"
+            android:gravity="center"
+            android:text="23/08/1990"
+            android:textSize="10dp" />
+
+        <Button
+            android:id="@+id/view_file"
+            android:layout_width="35dp"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/date_upload"
+            android:background="@android:color/transparent"
+
+            android:gravity="center_vertical"
+            android:text="view file"
+            android:textColor="#71B4E8"
+            android:textSize="10dp"
+            android:textStyle="bold" />
+
+        <Button
+            android:id="@+id/download_file"
+            android:layout_width="60dp"
+            android:layout_height="20dp"
+            android:layout_alignParentTop="true"
+            android:layout_toEndOf="@+id/view_file"
+            android:layout_toRightOf="@+id/view_file"
+            android:background="@android:color/transparent"
+            android:gravity="center_vertical"
+            android:text="download"
+            android:textColor="#71B4E8"
+            android:textSize="10dp"
+            android:textStyle="bold" />
+
+    </LinearLayout>
+
+</LinearLayout>

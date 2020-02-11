@@ -1,0 +1,140 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_vertical"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:background="@drawable/corner_round"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <!---add your views here-->
+
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:clickable="true"
+                android:gravity="center_vertical"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <TextView
+                        android:id="@+id/textView1rr"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:ellipsize="end"
+                        android:maxLines="5"
+                        android:text="This crate is packed inside:"
+                        android:textSize="16sp"
+                        android:textStyle="normal"
+                        android:visibility="visible" />
+
+                    <TextView
+                        android:id="@+id/text_Main_crateName"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Main Crate Name"
+                        android:textSize="16sp"
+                        android:textStyle="bold"
+                        android:visibility="gone" />
+                </LinearLayout>
+
+                <Button
+                    android:id="@+id/btn_MoveMainCrate"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="15dp"
+                    android:background="@drawable/round_corner_btn2_new"
+                    android:gravity="center"
+                    android:padding="5dp"
+                    android:text="Please scan the Main Crate QR Code to move Main Crate and its contents"
+                    android:textAllCaps="false"
+                    android:textColor="@color/btn_text_sky_blue"
+                    android:textSize="13sp"
+
+                    />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="05dp"
+                    android:gravity="center"
+                    android:text="OR"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    android:visibility="visible" />
+
+                <Button
+                    android:id="@+id/btn_RemoveFromMainCrate"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="05dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/round_corner_btn2_new"
+                    android:padding="5dp"
+                    android:text="Remove this Crate from Main Crate to Store/Ship alone"
+                    android:textAllCaps="false"
+                    android:textColor="@color/btn_text_sky_blue"
+                    android:textSize="13sp" />
+
+                <TextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:gravity="center"
+                    android:text="OR"
+                    android:textSize="14sp"
+                    android:textStyle="bold"
+                    android:visibility="visible" />
+
+                <Button
+                    android:id="@+id/btn_PackInAnotherCrate"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="5dp"
+                    android:layout_weight="1"
+                    android:background="@drawable/round_corner_btn2_new"
+                    android:padding="5dp"
+                    android:text="Pack this Crate in a different crate"
+                    android:textAllCaps="false"
+                    android:textColor="@color/btn_text_sky_blue"
+                    android:textSize="13sp" />
+
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/close"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="top|right"
+            android:clickable="true"
+            android:src="@drawable/error_1" />
+    </FrameLayout>
+
+</LinearLayout>

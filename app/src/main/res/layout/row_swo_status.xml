@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/ll_parent"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="?attr/selectableItemBackground"
+    android:orientation="vertical"
+    android:padding="10dp">
+
+        <CheckedTextView
+            android:id="@+id/checked_text_view"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:maxLines="1"
+            tools:text=""
+            android:background="?attr/selectableItemBackground"
+            android:gravity="center_vertical"
+            android:checked = "false"
+            android:drawableStart="?android:attr/listChoiceIndicatorSingle"
+            android:drawableEnd="@null"
+            android:drawableLeft="?android:attr/listChoiceIndicatorSingle"
+            android:drawableRight="@null"
+            android:textSize="17sp"
+
+            />
+        <!--  android:clickable="false"
+        android:focusableInTouchMode="false"-->
+
+</LinearLayout>

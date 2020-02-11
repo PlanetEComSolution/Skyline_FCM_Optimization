@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_vertical"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:background="@drawable/corner_round"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <!---add your views here-->
+
+
+            <LinearLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+                android:clickable="true"
+                android:orientation="vertical">
+
+
+                <TextView
+                    android:id="@+id/texrtdesc"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:layout_marginTop="10dp"
+                    android:gravity="center"
+                    android:textStyle="bold"
+                    android:text="Please scan valid QR Code of Bin/Freight Vendor/Area!"
+
+                    android:textSize="16sp" />
+
+                <TextView
+                    android:id="@+id/texrdtdesc"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginTop="10dp"
+
+                    android:gravity="center_horizontal"
+                    android:text=""
+                    android:textColor="@color/text_color_new"
+                    android:textSize="16sp" />
+
+
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:paddingLeft="15dp"
+                    android:gravity="center_horizontal"
+                    android:paddingRight="15dp"
+                    android:orientation="horizontal">
+
+
+
+
+                    <Button
+                        android:id="@+id/scann_again"
+                        android:layout_width="100dp"
+                        android:layout_height="35dp"
+                        android:layout_gravity="center_horizontal"
+                        android:background="@drawable/round_corner_btn2_new"
+                        android:text="Scan again!"
+                        android:textAllCaps="false"
+                        android:textColor="@color/btn_text_sky_blue"
+                        android:textSize="13sp"
+
+                        />
+                </LinearLayout>
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/close"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="top|right"
+            android:clickable="true"
+            android:src="@drawable/error_1" />
+    </FrameLayout>
+
+</LinearLayout>

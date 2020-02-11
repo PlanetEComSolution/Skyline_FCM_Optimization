@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="550dp"
+        android:layout_margin="5dp"
+        android:background="@drawable/shape1"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:orientation="vertical"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/close"
+                android:layout_width="33dp"
+                android:layout_height="33dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="5sp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginRight="8dp"
+                android:src="@drawable/cancell"
+                android:layout_gravity="right" />
+
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:id="@+id/campany_text"
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:textSize="18dp"
+                    android:gravity="center"
+                    android:text="Work Area"/>
+
+
+
+                <AutoCompleteTextView
+                    android:id="@+id/company"
+                    android:layout_width="260dp"
+                    android:layout_height="40dp"
+                    android:background="@drawable/shape1"
+                    android:layout_toRightOf="@+id/campany_text"
+                    android:layout_marginRight="10dp"
+                    android:textSize="14dp"
+                    android:textColor="#000"
+                    android:paddingLeft="5dp"
+                    android:hint="Select Work Area"
+                    android:spinnerMode="dropdown"
+                    />
+
+            </RelativeLayout>
+
+
+
+
+
+
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content">
+                <Button
+                    android:id="@+id/go_button"
+                    android:layout_width="fill_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="Go"
+                    android:textColor="#fff"
+                    android:background="#CD0A41"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="20dp"
+                    />
+            </RelativeLayout>
+
+
+
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content">
+                <TextView
+                    android:layout_width="120dp"
+                    android:layout_height="40dp"
+                    android:text="OR"
+                    android:textSize="18dp"
+                    android:gravity="center"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true" />
+            </RelativeLayout>
+
+
+
+            <RelativeLayout
+                android:layout_width="fill_parent"
+                android:layout_marginTop="10dp"
+                android:layout_height="wrap_content">
+                <Button
+                    android:id="@+id/Scann"
+                    android:layout_width="fill_parent"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="10dp"
+                    android:text="Scan Area"
+                    android:textColor="#fff"
+                    android:background="#CD0A41"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="20dp"
+                    />
+            </RelativeLayout>
+        </LinearLayout>
+    </LinearLayout>
+</RelativeLayout>

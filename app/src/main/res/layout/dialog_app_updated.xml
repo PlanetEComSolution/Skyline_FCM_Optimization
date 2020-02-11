@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_vertical"
+    android:gravity="center"
+    android:orientation="vertical">
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:background="@drawable/corner_round"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <!---add your views here-->
+
+
+            <TextView
+                style="@style/style_DialogTitle"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:gravity="center"
+                android:text="Exhibitpower"
+android:textAllCaps="false"
+                />
+
+            <TextView
+                android:id="@+id/tv_ver"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:ellipsize="end"
+                android:text="App updated successfully!"
+                android:textSize="16sp"
+                android:textStyle="normal"
+                android:textColor="@color/primaryTextColor"
+                android:visibility="visible" />
+
+            <ImageView
+                android:id="@+id/imgvw_ok"
+                android:layout_width="50dp"
+                android:layout_height="50dp"
+                android:layout_marginTop="20dp"
+                android:src="@drawable/verified" />
+
+
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/close"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="top|right"
+            android:clickable="true"
+            android:src="@drawable/error_1" />
+    </FrameLayout>
+
+</LinearLayout>

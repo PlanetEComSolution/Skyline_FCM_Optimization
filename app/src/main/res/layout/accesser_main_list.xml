@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape1">
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:textSize="12dp"
+
+
+                android:gravity="center"
+                android:text="A001-AC-063-Acc with cat name"
+                android:id="@+id/exbit0"/>
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="40dp"
+                android:textSize="12dp"
+
+                android:id="@+id/exbit01"
+                android:gravity="center"
+                android:layout_toRightOf="@+id/exbit0"
+                android:text="Acc with cat name"/>
+
+            <TextView
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:textSize="12dp"
+
+
+                android:id="@+id/exbit02"
+                android:gravity="center"
+                android:layout_toRightOf="@+id/exbit01"
+                android:text="1"/>
+
+
+            <ImageView
+                android:layout_width="70dp"
+                android:layout_height="70dp"
+                android:textSize="12dp"
+                android:id="@+id/exbit03"
+                android:gravity="center"
+                android:layout_toRightOf="@+id/exbit02"
+                android:text="Image"/>
+
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:textSize="12dp"
+                android:id="@+id/exbit04"
+                android:gravity="center"
+                android:layout_toRightOf="@+id/exbit03"
+                android:text="Not Included"/>
+        </RelativeLayout>
+
+        </LinearLayout>
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:text="Elements List"
+                android:background="#9E9E9E"
+
+                android:textSize="16dp"
+                android:textColor="#000"
+                android:paddingLeft="4dp"
+                android:gravity="center_vertical"/>
+
+
+            <ListView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape1"
+            android:id="@+id/exp">
+
+        </ListView>
+
+
+        <TextView
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:paddingLeft="4dp"
+            android:background="#9E9E9E"
+            android:text="Graphics List"
+            android:textSize="16dp"
+            android:textColor="#000"
+            android:gravity="center_vertical"/>
+
+
+            <ListView
+                android:layout_width="fill_parent"
+                android:layout_height="60dp"
+                android:background="@drawable/shape1"
+                android:id="@+id/exp1">
+
+            </ListView>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+
+
+    
+
+</ScrollView>
+

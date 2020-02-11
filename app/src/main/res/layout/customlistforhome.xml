@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout
+        android:id="@+id/sourcelayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/gradientimage"
+        android:weightSum="8"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true">
+
+        <TextView
+            android:id="@+id/createid"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.4"
+            android:text="createid"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="@dimen/createhometest" />
+
+        <TextView
+            android:id="@+id/description"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="10sp"
+            android:layout_marginRight="10sp"
+            android:layout_weight="2.6"
+            android:text="createdccccccccccccccesc"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="@dimen/createhometest" />
+
+        <TextView
+            android:id="@+id/locationss"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.7"
+            android:text="locsssssssssati"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="@dimen/createhometest" />
+
+        <ImageView
+            android:id="@+id/selects"
+            android:layout_width="0sp"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="5sp"
+            android:layout_weight="1.2" />
+
+        <ImageView
+            android:id="@+id/missss"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_weight="1.2" />
+    </LinearLayout>
+
+</RelativeLayout>

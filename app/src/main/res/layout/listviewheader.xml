@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+android:background="@android:color/darker_gray"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    >
+
+
+    <LinearLayout
+    
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/sourcelayout"
+     android:weightSum="7"
+     android:background="@color/grey"
+
+   >
+
+        <TextView
+            android:id="@+id/createid"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="crate Id"
+			android:layout_weight="2"
+			android:textSize="@dimen/headers"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+        <TextView
+            android:id="@+id/description"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+			android:layout_weight="2.1"       
+			android:textSize="@dimen/headers"    
+            android:text="Description"
+          android:layout_marginLeft="10sp"
+          android:layout_marginRight="10sp"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+          <TextView
+            android:id="@+id/locationss"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Location"
+  			android:layout_weight="2"  
+  			android:textSize="@dimen/headers"   
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+
+        <ImageView
+            android:id="@+id/selects"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+  			android:layout_weight=".9"      
+           android:visibility="invisible"
+         android:background="@drawable/ic_launcher"
+            
+           />
+        
+
+    </LinearLayout>
+
+
+</RelativeLayout>

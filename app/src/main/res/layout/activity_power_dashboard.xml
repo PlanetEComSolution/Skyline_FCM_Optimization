@@ -1,0 +1,432 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF">
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#F6FDFF"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:id="@+id/linerfortime"
+            android:layout_width="match_parent"
+            android:layout_height="80sp"
+            android:background="#ADE3F0"
+            android:gravity="center_vertical"
+            android:orientation="horizontal"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp"
+            android:visibility="gone">
+
+            <ImageView
+                android:id="@+id/merchantname"
+                android:layout_width="70dp"
+                android:layout_height="40sp"
+                android:src="@drawable/exhibitlogoa" />
+
+
+            <TextView
+                android:id="@+id/textView1rr"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:padding="5dp"
+                android:text="Welcome"
+                android:textColor="@color/btn_text_sky_blue"
+                android:textSize="@dimen/headersname" />
+
+
+        </LinearLayout>
+        <android.support.v4.widget.SwipeRefreshLayout
+            android:id="@+id/pullToRefresh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:background="#CFF5FF"
+            android:orientation="vertical">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Proof Approval Status"
+                android:textAllCaps="true"
+                android:textColor="@color/btn_text_sky_blue"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="@dimen/view_width"
+                android:layout_height="@dimen/view_width" />
+
+            <LinearLayout
+                android:id="@+id/ll_billable"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="vertical"
+                android:visibility="visible">
+
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:orientation="horizontal">
+
+                    <View
+                        android:layout_width="@dimen/view_width"
+                        android:layout_height="@dimen/view_width" />
+
+                    <LinearLayout
+                        android:id="@+id/ll_Approved"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@android:color/white"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tv_Approved"
+                            android:layout_width="@dimen/ring_shape_textview"
+                            android:layout_height="@dimen/ring_shape_textview"
+                            android:background="@drawable/ring_shape_approve"
+                            android:gravity="center"
+                            android:text="0"
+
+                            android:textAllCaps="true"
+                            android:textSize="@dimen/ring_shape_textview_size" />
+
+
+                        <TextView
+                            android:layout_width="wrap_content"
+                            android:layout_height="@dimen/textviewsize_homeActivity"
+                            android:gravity="center"
+                            android:text="Approved"
+                            android:textSize="@dimen/textSize_homeActivity" />
+
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="@dimen/view_width"
+                        android:layout_height="@dimen/view_width" />
+
+                    <LinearLayout
+                        android:id="@+id/ll_Snoozed"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="@android:color/white"
+                        android:gravity="center"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/tv_Snoozed"
+                            android:layout_width="@dimen/ring_shape_textview"
+                            android:layout_height="@dimen/ring_shape_textview"
+                            android:background="@drawable/ring_shape_snoozed"
+                            android:gravity="center"
+                            android:text="0"
+                            android:textAllCaps="true"
+                            android:textSize="@dimen/ring_shape_textview_size" />
+
+                        <TextView
+                            android:id="@+id/textView5"
+                            android:layout_width="match_parent"
+                            android:layout_height="@dimen/textviewsize_homeActivity"
+                            android:gravity="center"
+                            android:text="Snoozed"
+                            android:textSize="@dimen/textSize_homeActivity" />
+
+
+                    </LinearLayout>
+
+                    <View
+                        android:layout_width="@dimen/view_width"
+                        android:layout_height="@dimen/view_width" />
+                </LinearLayout>
+
+                <View
+                    android:layout_width="@dimen/view_width"
+                    android:layout_height="@dimen/view_width" />
+            </LinearLayout>
+
+            <!--new chnges-->
+
+
+            <!---->
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <View
+                    android:layout_width="@dimen/view_width"
+                    android:layout_height="@dimen/view_width" />
+
+                <LinearLayout
+                    android:id="@+id/ll_Pending"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@android:color/white"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+
+                        android:id="@+id/tv_Pending"
+                        android:layout_width="@dimen/ring_shape_textview"
+                        android:layout_height="@dimen/ring_shape_textview"
+                        android:background="@drawable/ring_shape_pending"
+                        android:gravity="center"
+                        android:text="0"
+                        android:textAllCaps="true"
+
+                        android:textSize="@dimen/ring_shape_textview_size" />
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/textviewsize_homeActivity"
+                        android:gravity="center"
+
+
+                        android:text="Pending"
+
+                        android:textSize="@dimen/textSize_homeActivity" />
+
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="@dimen/view_width"
+                    android:layout_height="@dimen/view_width" />
+
+                <LinearLayout
+                    android:id="@+id/ll_Rejected"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@android:color/white"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tv_Rejected"
+                        android:layout_width="@dimen/ring_shape_textview"
+                        android:layout_height="@dimen/ring_shape_textview"
+                        android:background="@drawable/ring_shape_rejected"
+                        android:gravity="center"
+                        android:text="0"
+                        android:textAllCaps="true"
+                        android:textSize="@dimen/ring_shape_textview_size" />
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/textviewsize_homeActivity"
+
+                        android:gravity="center"
+
+                        android:text="Rejected"
+
+                        android:textSize="@dimen/textSize_homeActivity" />
+
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="@dimen/view_width"
+                    android:layout_height="@dimen/view_width" />
+            </LinearLayout>
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="10dp"
+                android:layout_marginTop="10dp"
+                android:text="Client Order Status"
+                android:textAllCaps="true"
+                android:textColor="@color/btn_text_sky_blue"
+                android:textSize="17sp"
+                android:textStyle="bold" />
+
+            <View
+                android:layout_width="@dimen/view_width"
+                android:layout_height="@dimen/view_width" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <View
+                    android:layout_width="@dimen/view_width"
+                    android:layout_height="@dimen/view_width" />
+
+                <LinearLayout
+                    android:id="@+id/ll_Client_Order_Paused"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@android:color/white"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tv_Client_Order_Paused"
+                        android:layout_width="@dimen/ring_shape_textview"
+                        android:layout_height="@dimen/ring_shape_textview"
+                        android:background="@drawable/ring_shape"
+                        android:gravity="center"
+                        android:text="0"
+                        android:textAllCaps="true"
+
+                        android:textSize="@dimen/ring_shape_textview_size" />
+
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/textviewsize_homeActivity"
+
+                        android:gravity="center"
+
+                        android:text="Client Order Paused"
+
+                        android:textSize="@dimen/textSize_homeActivity" />
+
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="@dimen/view_width"
+                    android:layout_height="@dimen/view_width" />
+
+                <LinearLayout
+                    android:id="@+id/ll_Awaiting_Coordinator_Approval"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@android:color/white"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tv_Awaiting_Coordinator_Approval"
+                        android:layout_width="@dimen/ring_shape_textview"
+                        android:layout_height="@dimen/ring_shape_textview"
+                        android:background="@drawable/ring_shape"
+                        android:gravity="center"
+                        android:text="0"
+                        android:textAllCaps="true"
+
+                        android:textSize="@dimen/ring_shape_textview_size" />
+
+
+                    <TextView
+
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/textviewsize_homeActivity"
+
+
+                        android:gravity="center"
+                        android:text="Awaiting Coordinator Approval"
+                        android:textSize="@dimen/textSize_homeActivity" />
+
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="@dimen/view_width"
+                    android:layout_height="@dimen/view_width" />
+            </LinearLayout>
+
+            <View
+                android:layout_width="@dimen/view_width"
+                android:layout_height="@dimen/view_width" />
+
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_weight="1"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <View
+                    android:layout_width="@dimen/view_width"
+                    android:layout_height="@dimen/view_width" />
+
+
+                <LinearLayout
+                    android:id="@+id/ll_Approved_Orders"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:layout_weight="1"
+                    android:background="@android:color/white"
+                    android:gravity="center"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tv_Approved_Orders"
+                        android:layout_width="@dimen/ring_shape_textview"
+                        android:layout_height="@dimen/ring_shape_textview"
+                        android:background="@drawable/ring_shape"
+                        android:gravity="center"
+                        android:text="0"
+                        android:textAllCaps="true"
+                        android:textSize="@dimen/ring_shape_textview_size" />
+
+
+                    <TextView
+                        android:layout_width="wrap_content"
+                        android:layout_height="@dimen/textviewsize_homeActivity"
+
+
+                        android:gravity="center"
+                        android:text="Approved Order(s)"
+
+                        android:textSize="@dimen/textSize_homeActivity" />
+
+
+                </LinearLayout>
+
+                <View
+                    android:layout_width="@dimen/view_width"
+                    android:layout_height="@dimen/view_width" />
+
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="@dimen/view_width"
+                android:layout_height="@dimen/view_width" />
+        </LinearLayout>
+        <!--   </ScrollView>-->
+        </android.support.v4.widget.SwipeRefreshLayout>
+
+    </LinearLayout>
+    <!--   </ScrollView>
+   -->
+</LinearLayout>

@@ -1,0 +1,28 @@
+<resources>
+
+    <!-- Default screen margins, per the Android Design guidelines. -->
+    <dimen name="activity_horizontal_margin">4dp</dimen>
+    <dimen name="activity_vertical_margin">4dp</dimen>
+    <dimen name="clientname">15sp</dimen>
+    <dimen name="createhometest">12sp</dimen>
+    <dimen name="headers">15sp</dimen>
+    <dimen name="headersname">20sp</dimen>
+
+    <dimen name="listheight">160sp</dimen>
+    <dimen name="missinglist">60sp</dimen>
+    <dimen name="list_showFile_rowTopMargin">05dp</dimen>
+    <dimen name="list_showFile_rowTextsize">12sp</dimen>
+    <dimen name="textSize_homeActivity">14sp</dimen>
+    <dimen name="textviewsize_homeActivity">40dp</dimen>
+    <dimen name="item_padding">50dp</dimen>
+    <dimen name="view_width">08dp</dimen>
+    <dimen name="time_gap_text_size">16sp</dimen>
+    <dimen name="time_gap_title_size">19sp</dimen>
+    <dimen name="img_size_whtsinside">40dp</dimen>
+
+    <dimen name="ring_shape_textview">60dp</dimen>
+    <dimen name="ring_shape_textview_size">20sp</dimen>
+    <dimen name="icon_size">20dp</dimen>
+    <dimen name="fab_margin">16dp</dimen>
+    <dimen name="divider_margin_left">10dp</dimen>
+</resources>

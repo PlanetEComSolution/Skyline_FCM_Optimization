@@ -1,0 +1,337 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".old_activity.Selectmissing" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" >
+
+            <LinearLayout
+                android:id="@+id/linerfortime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                >
+
+                <ImageView
+                    android:id="@+id/merchantname"
+                    android:layout_width="100dp"
+                    android:layout_height="50sp"
+                     />
+
+                <TextView
+                    android:id="@+id/timer"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/merchantname"
+                    android:layout_alignParentRight="true"
+                    android:layout_toRightOf="@+id/merchantname"
+
+                    android:gravity="right|center"
+                    android:paddingRight="10dp"
+                    android:lines="2"
+                    android:maxLines="2"
+                    android:text="Time Clock 00:00"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textSize="@dimen/clientname" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/eusername"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/relativeLayout1"
+             >
+
+            <ImageView
+                android:id="@+id/missing"
+                android:layout_width="100sp"
+                android:layout_height="40sp"
+
+                android:gravity="center"
+                android:text="Missing Crates "
+                android:visibility="visible" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+android:layout_marginLeft="10dp"
+                android:layout_centerVertical="true"
+                android:layout_toRightOf="@+id/missing"
+                android:text="Hallieburton’s Crates"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="@dimen/clientname" />
+
+            <android.widget.ImageView
+                android:id="@+id/homeacti"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentRight="true"
+                android:layout_centerVertical="true"
+                android:layout_marginRight="14dp"
+                />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/home"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/eusername"
+            android:layout_marginTop="5sp"
+            >
+
+            <ImageView
+                android:id="@+id/homeimg"
+                android:layout_width="40sp"
+                android:layout_height="20sp"
+
+                android:gravity="center"
+                android:text="Missing Crates "
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/homescreen"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_centerVertical="true"
+                android:layout_marginTop="8sp"
+                android:layout_toRightOf="@+id/homeimg"
+                android:text="Please search for the missing crate or select stop work"
+                android:textColor="@android:color/black" />
+        </RelativeLayout>
+
+        <include
+            android:id="@+id/upperheader"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            layout="@layout/allheader"
+            android:visibility="gone"
+            android:layout_below="@+id/home"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+"
+
+
+        <RelativeLayout
+            android:id="@+id/relativelist"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/relative"
+            android:layout_below="@+id/upperheader"
+            android:layout_marginTop="5sp" >
+
+            <ListView
+                android:id="@+id/listViewselect"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+
+                android:scrollbars="none"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true">
+            </ListView>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/relative"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/relativemissing"
+            android:layout_weight="1" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="5sp"
+                android:gravity="center" >
+
+                <ImageView
+                    android:id="@+id/gobacktosca"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:adjustViewBounds="true"
+                    android:background="@drawable/backicona"
+                    android:gravity="center"
+                    android:minHeight="25dip"
+                    android:minWidth="36dip"
+                    android:visibility="gone"
+                    android:scaleType="center" />
+
+                <ImageView
+                    android:id="@+id/govleraselect"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5sp"
+                    android:adjustViewBounds="true"
+                    android:background="@drawable/clearselectiona"
+                    android:gravity="center"
+                    android:minHeight="25sp"
+                    android:minWidth="36sp"
+                    android:visibility="gone"
+                    android:scaleType="center" />
+
+                <ImageView
+                    android:id="@+id/gomissi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5sp"
+                    android:adjustViewBounds="true"
+                    android:background="@drawable/continueicona"
+                    android:gravity="center"
+                    android:minHeight="25sp"
+                    android:minWidth="36sp"
+                    android:scaleType="center" />
+
+                <RelativeLayout
+                    android:id="@+id/relative3"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignLeft="@+id/relativelist"
+                    android:layout_below="@+id/relativelist"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:visibility="gone" >
+
+                    <TextView
+                        android:id="@+id/gobacktoscanner"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Go back to scanner "
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textSize="@dimen/clientname" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/relative2"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/relativelist"
+                    android:layout_toRightOf="@+id/relative3"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:visibility="gone" >
+
+                    <TextView
+                        android:id="@+id/clearselection"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Clear Selections "
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textSize="@dimen/clientname" />
+                </RelativeLayout>
+
+                <RelativeLayout
+                    android:id="@+id/relative1"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/relativelist"
+                    android:layout_toRightOf="@+id/relative2"
+                    android:layout_weight="1"
+                    android:gravity="center"
+                    android:visibility="gone" >
+
+                    <TextView
+                        android:id="@+id/contibnuetoselected"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:gravity="center"
+                        android:text="Continue with selected "
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textSize="@dimen/clientname" />
+                </RelativeLayout>
+            </LinearLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/relativemissing"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/BelowHeader"
+            android:layout_marginTop="5sp"
+            android:background="@color/red" >
+
+            <TextView
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:gravity="center"
+                android:text="Missing Crates "
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="#FFFFFF"
+                android:textSize="@dimen/headersname" />
+        </RelativeLayout>
+
+        <include
+            android:id="@+id/BelowHeader"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            layout="@layout/allheaderwithmissingloc"
+            android:layout_above="@+id/misinm"
+            android:visibility="gone"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentStart="true" />
+"
+
+        <!-- layout="@layout/listviewheader" -->
+
+        <RelativeLayout
+            android:id="@+id/misinm"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/innnnnn" >
+
+            <ListView
+                android:id="@+id/listViewmissing"
+                android:layout_width="wrap_content"
+                android:layout_height="200dp"
+
+                android:scrollbars="none" >
+            </ListView>
+        </RelativeLayout>
+
+        <include
+            android:id="@+id/innnnnn"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_above="@+id/footerr"
+            layout="@layout/stopwork" />
+"
+
+
+        <RelativeLayout
+            android:id="@+id/footerr"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_marginBottom="5sp" >
+
+            <ImageView
+                android:id="@+id/footre"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:adjustViewBounds="true"
+                android:background="@drawable/footer"
+                android:minHeight="25sp"
+                android:visibility="gone"
+                android:scaleType="center" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+</RelativeLayout>

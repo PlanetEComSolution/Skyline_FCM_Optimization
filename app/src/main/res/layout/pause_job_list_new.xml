@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_margin="10dp"
+    android:orientation="vertical">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/ll"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/style_DialogTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Paused Job(s)"
+
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/btn_text_sky_blue" />
+
+        <TextView
+            android:id="@+id/_text_noJObs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="20dp"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="No Jobs Available !"
+            android:textSize="18dp"
+
+            android:visibility="gone" />
+
+        <ListView
+            android:id="@+id/listView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:minHeight="100dp"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="5dp"
+            android:orientation="vertical">
+        <Button
+            android:id="@+id/btn_skip"
+           android:layout_gravity="center"
+            android:layout_width="150dp"
+            android:layout_height="35dp"
+            android:background="@drawable/round_corner_btn2_new"
+            android:gravity="center"
+            android:padding="0dp"
+            android:text="Skip"
+            android:textAllCaps="false"
+            android:textColor="@color/btn_text_sky_blue"
+            android:textSize="@dimen/headers" />
+    </LinearLayout>
+
+    </LinearLayout>
+</LinearLayout>

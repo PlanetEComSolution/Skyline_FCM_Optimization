@@ -1,0 +1,183 @@
+https://android.jlelse.eu/android-interview-questions-cheat-sheet-part-ii-bea0633f0da7
+https://android.jlelse.eu/android-interview-questions-cheat-sheet-96ea01c88def
+https://stackabuse.com/sorting-algorithms-in-java/#selectionsort
+https://android.jlelse.eu/android-activity-launch-mode-e0df1aa72242
+https://www.journaldev.com/20567/kotlin-interview-questions
+https://www.tutorialspoint.com/Abstraction-vs-Encapsulation-in-Java
+https://dzone.com/articles/model-view-presenter-for-andriod
+https://academy.realm.io/posts/eric-maxwell-mvc-mvp-and-mvvm-on-android/
+https://www.geeksforgeeks.org/interfaces-in-java/
+https://www.zoftino.com/model-view-viewmodel-mvvm-android-example
+https://beginnersbook.com/2017/12/kotlin-hello-world-program/
+http://zetcode.com/kotlin/operators/
+https://www.journaldev.com/18491/kotlin-class-constructor
+http://zetcode.com/kotlin/operators/
+
+Anonymous class
+Java services
+Interface
+String and string buffer
+What is rxjava
+What is dependency injection
+inner classes java
+
+Kotlin :
+1. function and extention function
+
+ https://www.programiz.com/kotlin-programming/extension-functions
+ constructor and primary constructor
+ elvis opertor
+ hashmap
+ hash search
+ stack memory
+ heap memory
+1-0
+0-1
+
+String buffer vs string builder
+
+///
+String s=new string ("");
+how many object creates.
+
+int s=MAX_VALUE;
+print i++;
+print ++i;
+
+
+fragment backstack
+replace fragment & Add fragment
+domparser and json difference
+soapp vs rest
+second largest
+
+ktlin:
+
+init
+lateint
+lazy
+let
+
+let
+run
+also
+apply
+with
+
+https://www.journaldev.com/19467/kotlin-let-run-also-apply-with
+
+https://medium.com/@mohitsharma_49363/android-kotlin-lazy-lateinit-and-delegates-9e5f01c561dc
+what is thread
+thread lifecycl
+hashset vs arraylist
+
+
+whats is view holder class
+sqlite
+which types of join is supported in sqlte
+
+
+/****************************************************************************************************************************************/
+
+
+1. Constrtaint Layout
+2. Kotlin
+3. Whats is observable in kotlin
+4. Composition and inheritence  difference
+5. Multiple inheritence
+6.  Interface
+7.  Serializable and parceable
+8.  Commit and apply are synchronous or asynchronous
+8.  difference eqauter and enumeration.
+9.  Enum
+10. launch modes
+11. build type-
+12. Intent FLAG
+13. Asynctask and thread
+14. what method will be callled when prees lock
+15. fragment lifecylce.
+16. fragment add and fragment replace which method called
+17. R.java
+18. what is mvvvm
+19. recycler view list- which part will be in model and which part in model
+20. Activity A--B, send data from B to A --SetResult.
+21. Onsaved instance state and onRestore instanse state.
+22. Singleton class
+23. Timertask and handler
+24. Activity and services difference
+25. Start Sticky and Start non sticky service
+26. Bound and Unbound service
+26. ANR
+27. Priority Quew
+28. String Intern
+29. Garbage Collector
+30. Concurrency feature - multi Threading  in andoid
+31. Volatile keyword
+32. == and .eqaul diffreence java
+33. Final Keyword.
+34. Event bus and Broadcast receiever
+35. ontrimmemory function in android
+36. Dex complier
+
+**********************************************************kotlin
+Kotlin------------------
+Val vs var
+const val and val
+lateinit vs lazy
+if we use use lateinit without initialaztion
+how to lateinit is initalize or no
+nullable
+? vs !!
+data class
+primary vs seconday construtor
+can we use secondary con in data classs
+can we have secondary constru i java
+can we have hascode and equal in data class
+how many types of high order func avalable in kotlin
+what is the extension function
+inflix function
+inlined function
+sealed class
+what is mean by one object of sealed class
+scooping function
+coroutines
+types of coroutines
+***************** java ***********************************
+Sngloton class
+how to creat singlton class
+in case of 2 thread how singlton class will provide single ton class
+String constatt poll
+heap memory
+Hashmap vs Hastable vs Hashset
+Fail Fast & Fast Safe
+Checked and unchecked exception
+Life cycle of thread
+Serialzation in java
+***********************************android*******************
+Work Manager
+life cycle of fragment
+when activty is cretaed which method in fragment will be created
+when onResume is called in activty then in fragment
+Service in android
+if i have to start a service now---which service
+if i have to start task at cetain time - which service
+Alarm Manager
+Background limitation in oreo
+SOLID Pricipals
+*************************************mvvm
+where to write the logic
+how it work -way
+how view model update the ui
+api called and   view model put the data to live data
+how the viewmodel update the ui
+Asynctask vs retrofit
+
+
+
+
+
+
+
+
+
+

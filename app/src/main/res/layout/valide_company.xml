@@ -1,0 +1,88 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="200dp"
+        android:orientation="vertical"
+        android:weightSum="1">
+        <RelativeLayout
+            android:layout_width="match_parent"
+
+
+            android:layout_height="219dp"
+            android:layout_weight="0.27">
+            <ImageView
+                android:id="@+id/close"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="5sp"
+                android:layout_marginBottom="20dp"
+                android:layout_marginRight="8dp"
+                android:src="@drawable/cancell" />
+
+
+            <EditText
+                android:id="@+id/jobtext"
+                android:layout_width="0dp"
+                android:layout_height="40dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="130dp"
+                android:gravity="center_vertical"
+                android:layout_gravity="center"
+                android:hint="Enter Job Id"
+                android:textSize="@dimen/headers"
+                android:visibility="invisible"
+                android:textColor="#000"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_alignBottom="@+id/Btn_Yes"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentStart="true"
+                android:layout_alignRight="@+id/Btn_Yes"
+                android:layout_alignEnd="@+id/Btn_Yes" />
+
+            <TextView
+                android:id="@+id/Btn_Yes"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:textSize="@dimen/headers"
+                android:layout_marginTop="5dp"
+                android:text="There is no any Job for this Company kindly choose another Company!"
+                android:layout_marginLeft="5dp"
+
+                android:gravity="center"
+
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_below="@+id/close"
+                android:layout_alignRight="@+id/close"
+                android:layout_alignEnd="@+id/close" />
+
+            <TextView
+                android:id="@+id/scan"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_weight="1"
+                android:textSize="@dimen/headers"
+                android:text="Ok"
+                android:background="#CD0A41"
+                android:padding="5dp"
+                android:gravity="center"
+                android:layout_marginBottom="30dp"
+                android:textColor="#FFFFFF"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:layout_marginTop="33dp"
+                android:layout_below="@+id/jobtext"
+                android:layout_alignLeft="@+id/jobtext"
+                android:layout_alignStart="@+id/jobtext"
+                android:layout_alignRight="@+id/Btn_Yes"
+                android:layout_alignEnd="@+id/Btn_Yes" />
+
+        </RelativeLayout>
+    </LinearLayout>
+</RelativeLayout>

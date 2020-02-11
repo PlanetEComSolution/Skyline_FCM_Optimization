@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    >
+
+
+    <LinearLayout
+    
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/sourcelayout"
+     android:weightSum="8"
+     android:background="@color/grey"
+  
+   >
+
+        <TextView
+            android:id="@+id/createid"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Crate ID"
+android:layout_weight="1.6"
+android:singleLine="true"
+android:textSize="@dimen/headers"
+android:textColor="#FFFFFF"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+        
+        <TextView
+            android:id="@+id/description"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+android:layout_weight="2.8"      
+android:textSize="@dimen/headers"     
+            android:text="Description"
+          android:layout_marginLeft="10sp"
+          android:layout_marginRight="10sp"
+          android:textColor="#FFFFFF"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+        
+          <TextView
+            android:id="@+id/locationss"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:text="Location"
+            android:textSize="@dimen/headers"
+  android:layout_weight="2"     
+  android:textColor="#FFFFFF"
+            android:textAppearance="?android:attr/textAppearanceMedium" />
+          
+
+        <ImageView
+            android:id="@+id/selects"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+  android:layout_weight=".9"      
+  android:visibility="gone"
+            android:background="@drawable/ic_launcher"
+         
+            
+           />
+         <ImageView
+            android:id="@+id/missss"
+            android:layout_width="0dp"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="5sp"
+            android:background="@drawable/ic_launcher"
+ android:layout_weight=".8"
+ android:visibility="gone"
+            android:text="missing"
+           />
+
+    </LinearLayout>
+
+
+</RelativeLayout>

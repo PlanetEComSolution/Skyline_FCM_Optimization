@@ -1,0 +1,548 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="planet.info.skyline">
+
+    <meta-data
+        android:name="firebase_crashlytics_collection_enabled"
+        android:value="false" /> <!-- <uses-permission android:name="android.permission.RECORD_AUDIO" /> -->
+    <uses-permission android:name="android.permission.GET_ACCOUNTS" />
+    <uses-permission android:name="android.permission.READ_PHONE_STATE" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <!--
+    <uses-permission android:name="android.permission.READ_SMS" />
+    <uses-permission android:name="android.permission.WRITE_SMS" />
+    -->
+    <uses-permission android:name="android.permission.CAMERA" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.ACCESS_WIFI_STATE" />
+    <uses-permission android:name="android.permission.CHANGE_WIFI_STATE" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.MANAGE_ACCOUNTS" />
+    <uses-permission android:name="android.permission.SYSTEM_ALERT_WINDOW" /> <!-- <uses-permission android:name="android.permission.CALL_PHONE" /> -->
+    <uses-permission android:name="android.permission.EXPAND_STATUS_BAR" />
+
+    <uses-feature
+        android:name="android.hardware.camera"
+        android:required="false" />
+
+    <uses-permission android:name="android.permission.RECEIVE_BOOT_COMPLETED" />
+
+    <uses-feature android:name="android.hardware.camera.autofocus" />
+
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+
+    <supports-screens
+        android:anyDensity="true"
+        android:largeScreens="true"
+        android:normalScreens="true"
+        android:resizeable="true"
+        android:smallScreens="true"
+        android:xlargeScreens="true" />
+
+    <application
+        android:name=".crash_report.CrashReport"
+        android:allowBackup="true"
+        android:icon="@drawable/logo_new"
+        android:label="@string/app_name"
+        android:roundIcon="@drawable/logo_new"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".tech.billable_timesheet.LaborCodesActivity"
+            android:screenOrientation="portrait"
+            >
+
+        <!--    <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>-->
+
+
+        </activity>
+        <activity android:name=".tech.billable_timesheet.SWO_Status_Activity"
+            android:screenOrientation="portrait"
+            >
+           <!-- <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>-->
+        </activity>
+        <activity
+            android:name=".tech.task_plan.MyTasksActivity"
+            android:screenOrientation="portrait"></activity>
+        <activity
+            android:name=".runtime_permission.PermissionActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/ThemeNoActionBar" />
+        <activity
+            android:name=".tech.usage_charges.VendorsListActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".client.SearchJobActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".tech.task_plan.CompleteTaskActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".tech.task_plan.AttachmentListActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".tech.task_plan.TechnicianListActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".tech.task_plan.ChecklistActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".tech.task_plan.CompletedTaskDetailActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".tech.swo.SwoListActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".tech.task_plan.TaskPlanMainActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar">
+
+<!--
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>-->
+
+        </activity>
+        <activity
+            android:name=".tech.task_plan.TaskPlanTabActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".tech.usage_charges.UsageChargesListActivity"
+            android:label="@string/title_activity_usage_charges_list"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+
+        <uses-library
+            android:name="org.apache.http.legacy"
+            android:required="false" />
+
+        <activity
+            android:name=".tech.choose_job_company.SelectCompanyActivityNew"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="stateAlwaysHidden" /> <!-- android:theme="@style/MyAppCompatDialogTheme" -->
+        <activity
+            android:name=".tech.usage_charges.UsageChargesUpdateActivityNew"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".tech.job_files_new.JobFilesTabActivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar" />
+        <activity
+            android:name=".home.MainActivity"
+            android:configChanges="orientation"
+            android:label="@string/app_name"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="stateAlwaysHidden" />
+        <activity
+            android:name="com.google.zxing.client.android.CaptureActivity"
+            android:configChanges="orientation|keyboardHidden"
+            android:theme="@android:style/Theme.NoTitleBar.Fullscreen"
+            android:windowSoftInputMode="stateAlwaysHidden"
+            tools:replace="android:theme">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+            <intent-filter>
+                <action android:name="com.google.zxing.client.android.SCAN" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".old_activity.Exibitpower"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_exibitpower"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".tech.locate_crates.LocateCrates"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_homeact"
+            android:screenOrientation="portrait"
+            android:theme="@style/ThemeNoActionBar"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".old_activity.Selectmissing"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_selectmissing"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".old_activity.Allmissingcreates"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_allmissingcreates"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".home.LoginActivity"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_userregistat"
+            android:screenOrientation="portrait"
+            android:theme="@style/AppTheme.NoActionBar"
+            android:windowSoftInputMode="adjustResize" />
+        <activity
+            android:name=".old_activity.Updatecreatelocation"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_updatecreatelocation"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".old_activity.Foundscaneract"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_foundscaneract"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".tech.billable_timesheet.Clock_Submit_Type_Activity"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_danage_refurbish"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/ThemeNoActionBar" /> <!-- android:theme="@style/ThemeNoActionBar" -->
+        <activity
+            android:name=".old_activity.DamagwRubishnewpack"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_damagw_rubishnewpack"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".old_activity.Damagerefushchart"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_damagerefushchart"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".old_activity.Routinestopingwork"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_routinestopingwork"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".tech.damage_report.DamageReport"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_rubishcratedataupload"
+            android:screenOrientation="portrait"
+            android:theme="@style/ThemeNoActionBar"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".tech.damage_report.DamageReportNew"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_rubishcratedataupload"
+            android:screenOrientation="portrait"
+            android:theme="@style/ThemeNoActionBar"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".tech.upload_photo.UploadPhotosActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:windowSoftInputMode="stateHidden"></activity>
+        <activity
+            android:name=".tech.billable_timesheet.ClientLeavingWithCrate"
+            android:configChanges="keyboardHidden|orientation|screenLayout|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@style/ThemeNoActionBar"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".tech.non_billable_timesheet.NonBillable_jobs"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_danage_refurbish"
+            android:launchMode="singleTask"
+            android:screenOrientation="portrait"
+            android:theme="@style/ThemeNoActionBar"
+            android:windowSoftInputMode="stateHidden" />
+        <activity
+            android:name=".tech.billable_timesheet.SubmitTimesheet"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/title_activity_scanforworkstation"
+            android:screenOrientation="portrait"
+            android:theme="@style/ThemeNoActionBar" />
+        <activity
+            android:name=".tech.billable_timesheet.SubmitTimesheetNew"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/title_activity_scanforworkstation"
+            android:screenOrientation="portrait"
+            android:theme="@style/ThemeNoActionBar" />
+
+
+        <activity
+            android:name=".old_activity.Scanworklocationstart"
+            android:configChanges="orientation|keyboardHidden"
+            android:label="@string/title_activity_scanworklocationstart"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".tech.material_move.SlotMoveactivity"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_slot_moveactivity"
+            android:screenOrientation="portrait"
+            android:theme="@style/ThemeNoActionBar" />
+        <activity
+            android:name=".tech.upload_photo.Upload_image_and_cooment_New"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/title_activity_upload_image_and_cooment"
+            android:screenOrientation="portrait"
+            android:theme="@style/ThemeNoActionBar"
+            android:windowSoftInputMode="adjustResize|stateHidden" /> <!-- android:windowSoftInputMode="stateVisible|adjustPan" -->
+        <!-- android:windowSoftInputMode="stateVisible|adjustPan" -->
+        <activity
+            android:name=".old_activity.Upload_at_any_page"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_upload_at_any_page"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".job_files_old.Show_Jobs_Activity"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_show__jobs_" />
+        <activity
+            android:name=".old_activity.webViewActivity"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_web_view"
+            android:screenOrientation="portrait"
+            android:theme="@style/ThemeNoActionBar" />
+        <activity
+            android:name=".old_activity.NonBillable_List_Activity"
+            android:configChanges="orientation"
+            android:label=" " />
+        <activity
+            android:name=".old_activity.Packing_Activity"
+            android:configChanges="orientation"
+            android:label="@string/title_activity_packing_"
+            android:screenOrientation="portrait" />
+
+        <service
+            android:name=".floating_view.ChatHeadService"
+            android:enabled="true"
+            android:exported="false" />
+
+        <activity
+            android:name="crash_report.Update"
+            android:configChanges="orientation|screenSize"
+            android:screenOrientation="portrait"
+            android:theme="@android:style/Theme.Dialog"
+            android:windowSoftInputMode="stateHidden" />
+        <!--
+         <provider
+             android:name="android.support.v4.content.FileProvider"
+             android:authorities="${applicationId}.provider"
+             android:exported="false"
+             android:grantUriPermissions="true">
+             <meta-data
+                 android:name="android.support.FILE_PROVIDER_PATHS"
+                 android:resource="@xml/provider_paths" />
+         </provider>
+        -->
+        <activity android:name=".job_files_old.Show_Jobs_Activity_New" />
+        <activity
+            android:name=".tech.share_photos.SharePhotosToClientActivity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".tech.whats_inside.ShowWhatsInside_Activity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".tech.whats_inside.ShowWhatsInside_MainActivity"
+            android:screenOrientation="portrait" />
+        <activity
+            android:name=".tech.whats_inside.ShowWhatsInside_sub"
+            android:screenOrientation="portrait" /> <!-- <activity android:name="com.nguyenhoanglam.imagepicker.activity.ImagePickerActivity"></activity> -->
+        <activity
+            android:name=".tech.fullscreenview.FullscreenImageView"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label=""
+            android:screenOrientation="portrait"
+            android:theme="@style/ThemeNoActionBar" />
+        <activity android:name=".old_activity.ZoomInZoomOut" />
+        <activity
+            android:name="com.darsh.multipleimageselect.activities.AlbumSelectActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/app_name"
+            android:theme="@style/MultipleImageSelectTheme">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.darsh.multipleimageselect.activities.ImageSelectActivity"
+            android:configChanges="orientation|screenSize"
+            android:label="@string/app_name"
+            android:theme="@style/MultipleImageSelectTheme">
+            <intent-filter>
+                <category android:name="android.intent.category.DEFAULT" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".home.SplashActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label="@string/app_name"
+            android:theme="@style/ThemeNoActionBar">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".client.ClientHomeActivity"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:theme="@style/ThemeNoActionBar" />
+        <activity
+            android:name=".client.DashboardActivity"
+            android:screenOrientation="sensorPortrait"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".client.MyAccountActivity"
+            android:screenOrientation="sensorPortrait"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".client.UserListActivity"
+            android:screenOrientation="sensorPortrait"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".client.UpdateUserInfoActivity"
+            android:screenOrientation="sensorPortrait"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".client.ProjectPhotosActivity"
+            android:screenOrientation="sensorPortrait"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".client.ProjectPhotoDetailActivity"
+            android:screenOrientation="sensorPortrait"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".client.Proof_RendersActivity"
+            android:screenOrientation="sensorPortrait"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".client.ProofRenders_DetailActivity"
+            android:screenOrientation="sensorPortrait"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".client.ProjectFileDetailActivity"
+            android:screenOrientation="sensorPortrait"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".tech.job_files_new.ProjectFileDetailActivityNonClient"
+            android:screenOrientation="sensorPortrait"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".tech.fullscreenview.FullscreenWebView"
+            android:configChanges="orientation|keyboardHidden|screenSize"
+            android:label=""
+            android:theme="@style/ThemeNoActionBar" />
+        <activity android:name=".tech.fullscreenview.FullscreenWebViewNew" />
+        <activity
+            android:name=".client.ClientFilesActivity"
+            android:screenOrientation="sensorPortrait"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".client.ClientFileDetailActivity"
+            android:screenOrientation="sensorPortrait"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".client.DashboardDetailActivity_EP2"
+            android:screenOrientation="sensorPortrait"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".client.DashboardDetailActivity_EP1"
+            android:screenOrientation="sensorPortrait"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".client.HelpActivity"
+            android:screenOrientation="sensorPortrait"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".client.ProjectFilesActivity"
+            android:screenOrientation="sensorPortrait"
+            android:windowSoftInputMode="adjustPan" />
+        <!--
+          <activity
+              android:name="com.aditya.filebrowser.FileChooser"
+              android:screenOrientation="sensorPortrait"
+              android:windowSoftInputMode="adjustPan"
+              />
+          <activity
+              android:name="com.aditya.filebrowser.utils.Permissions"
+              android:screenOrientation="sensorPortrait"
+              android:windowSoftInputMode="adjustPan"
+              />
+          <activity
+              android:name="com.jaiselrahman.filepicker.activity.FilePickerActivity"
+              android:screenOrientation="sensorPortrait"
+              android:windowSoftInputMode="adjustPan"
+              />
+        -->
+        <!--
+          <activity
+              android:name="com.esafirm.imagepicker.features.ImagePickerActivity"
+              android:screenOrientation="sensorPortrait"
+              android:windowSoftInputMode="adjustPan"
+              android:theme="@style/ThemeNoActionBar"
+          />
+        -->
+        <!-- <provider -->
+        <!-- android:name="android.support.v4.content.FileProvider" -->
+        <!-- android:authorities="${applicationId}.android.provider" -->
+        <!-- android:exported="false" -->
+        <!-- android:grantUriPermissions="true"> -->
+        <!-- <meta-data -->
+        <!-- android:name="android.support.FILE_PROVIDER_PATHS" -->
+        <!-- android:resource="@xml/file_paths"> -->
+        <!-- </meta-data> -->
+        <!-- </provider> -->
+        <provider
+            android:name="android.support.v4.content.FileProvider"
+            android:authorities="${applicationId}.provider"
+            android:exported="false"
+            android:grantUriPermissions="true">
+            <meta-data
+                android:name="android.support.FILE_PROVIDER_PATHS"
+                android:resource="@xml/file_paths" />
+        </provider>
+        <!--
+  <activity
+            android:name="com.karumi.dexter.DexterActivity"
+            android:screenOrientation="sensorPortrait"
+            android:windowSoftInputMode="adjustPan" />
+        -->
+        <activity
+            android:name=".tech.update_timesheet.TimeSheetList1Activity"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+        <activity
+            android:name=".client.Client_Events"
+            android:screenOrientation="portrait"
+            android:windowSoftInputMode="adjustPan" />
+
+        <service android:name=".fcm.MyFirebaseMessagingService">
+            <intent-filter>
+                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+            </intent-filter>
+        </service>
+        <!--
+         Set custom default icon. This is used when no icon is set for incoming notification messages.
+         See README(https://goo.gl/l4GJaQ) for more.
+        -->
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_icon"
+            android:resource="@mipmap/ic_launcher" />
+        <!--
+             Set color used with incoming notification messages. This is used when no color is set for the incoming
+             notification message. See README(https://goo.gl/6BKBk7) for more.
+        -->
+        <meta-data
+            android:name="com.google.firebase.messaging.default_notification_color"
+            android:resource="@color/colorAccent" />
+    </application>
+
+</manifest>

@@ -1,0 +1,310 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+
+        android:layout_margin="5dp"
+        android:layout_height="wrap_content">
+
+
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:text="Accessories ID"
+                    android:background="@drawable/s"
+                    android:textSize="14dp"
+                    android:textColor="#fff"
+                    android:paddingLeft="3dp"
+
+                    android:gravity="center_vertical"
+                    android:id="@+id/t1"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:textSize="12dp"
+                    android:gravity="center_vertical"
+                    android:layout_marginLeft="3dp"
+                    android:id="@+id/ex"
+                    android:layout_toRightOf="@+id/t1"
+                    android:text="A001-EXH-1a 	Main graphics ele 1" />
+
+            </RelativeLayout>
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:text="Date"
+                    android:background="@drawable/s"
+                    android:textSize="14dp"
+                    android:textColor="#fff"
+                    android:paddingLeft="3dp"
+
+                    android:gravity="center_vertical"
+                    android:id="@+id/t2"/>
+
+                <TextView
+                    android:layout_width="70dp"
+                    android:layout_height="40dp"
+                    android:textSize="12dp"
+                    android:id="@+id/ex1"
+                    android:gravity="center"
+                    android:layout_toRightOf="@+id/t2"
+                    android:text="06/13/2016"/>
+
+            </RelativeLayout>
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:text="Size"
+                    android:background="@drawable/s"
+                    android:textSize="14dp"
+                    android:textColor="#fff"
+                    android:paddingLeft="3dp"
+
+                    android:gravity="center_vertical"
+                    android:id="@+id/t3"/>
+
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="40dp"
+                    android:text=" Size: 20 * 30"
+android:gravity="center"
+                    android:layout_toRightOf="@+id/t3"
+                    android:id="@+id/size" />
+
+            </RelativeLayout>
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:text="Image"
+                    android:background="@drawable/s"
+                    android:textSize="14dp"
+                    android:textColor="#fff"
+                    android:paddingLeft="3dp"
+
+                    android:gravity="center_vertical"
+                    android:id="@+id/t4"/>
+
+                <ImageView
+                    android:layout_width="50dp"
+                    android:layout_height="40dp"
+                    android:layout_marginLeft="5dp"
+                    android:background="@drawable/shape1"
+                    android:layout_toRightOf="@+id/t4"
+                    android:id="@+id/image" />
+
+
+            </RelativeLayout>
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:text="Status"
+                    android:background="@drawable/s"
+                    android:textSize="14dp"
+                    android:textColor="#fff"
+                    android:paddingLeft="3dp"
+
+                    android:gravity="center_vertical"
+                    android:id="@+id/t5"/>
+
+
+                <Spinner
+                    android:layout_width="160dp"
+                    android:layout_height="40dp"
+                    android:textSize="12dp"
+                    android:id="@+id/ex2"
+                    android:layout_marginLeft="3dp"
+                    android:background="@drawable/shape1"
+                    android:gravity="center"
+                    android:layout_toRightOf="@+id/t5"
+                    android:text="NA"/>
+
+            </RelativeLayout>
+        </LinearLayout>
+
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:text="Include/Not Include"
+                    android:background="@drawable/s"
+                    android:textSize="14dp"
+                    android:textColor="#fff"
+                    android:paddingLeft="3dp"
+
+                    android:gravity="center_vertical"
+                    android:id="@+id/t6"/>
+
+
+                <CheckBox
+                    android:layout_width="30dp"
+                    android:layout_height="wrap_content"
+                    android:textSize="12dp"
+                    android:id="@+id/ex4"
+                    android:gravity="center"
+
+                    android:layout_toRightOf="@+id/t6"
+                    android:checked="false" />
+
+
+            </RelativeLayout>
+        </LinearLayout>
+
+
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="2dp">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+                <TextView
+                    android:layout_width="100dp"
+                    android:layout_height="40dp"
+                    android:text="Select the Reason"
+                    android:background="@drawable/s"
+                    android:textSize="14dp"
+                    android:textColor="#fff"
+                    android:paddingLeft="3dp"
+
+                    android:gravity="center_vertical"
+                    android:id="@+id/t7"/>
+
+
+
+                <Spinner
+                    android:layout_width="160dp"
+                    android:layout_height="40dp"
+                    android:textSize="12dp"
+                    android:layout_marginLeft="3dp"
+                    android:id="@+id/spinner1"
+                    android:layout_toRightOf="@+id/t7"
+                    android:background="@drawable/shape1"
+                    />
+
+
+            </RelativeLayout>
+        </LinearLayout>
+
+
+
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp">
+
+            <RelativeLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
+
+
+
+                <TextView
+                    android:layout_width="60dp"
+                    android:layout_height="40dp"
+                    android:textSize="14dp"
+                    android:id="@+id/view"
+                    android:gravity="center"
+                    android:text="View"
+                    android:background="@drawable/s"
+                    android:textColor="#fff"
+                    />
+
+
+
+
+            </RelativeLayout>
+        </LinearLayout>
+
+
+
+
+
+
+    </LinearLayout>
+
+</RelativeLayout>

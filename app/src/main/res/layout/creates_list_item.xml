@@ -1,0 +1,314 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp">
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:background="@drawable/s"
+                android:textSize="14dp"
+                android:textColor="#fff"
+                android:gravity="center_vertical"
+                android:text="Crate Numbe"
+                android:paddingLeft="4dp"
+                android:id="@+id/e"/>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:textSize="12dp"
+                android:textColor="#000"
+                android:paddingLeft="4dp"
+                android:layout_marginRight="4dp"
+               android:layout_marginLeft="3dp"
+                android:background="@drawable/shape1"
+                android:id="@+id/e1"
+                android:gravity="center_vertical"
+                android:layout_toRightOf="@+id/e"
+                android:text="111"/>
+
+        </RelativeLayout>
+
+
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp">
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:background="@drawable/s"
+                android:textSize="14dp"
+                android:textColor="#fff"
+                android:paddingLeft="4dp"
+                android:gravity="center_vertical"
+                android:text="Crate Type"
+                android:id="@+id/des"/>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:layout_marginRight="4dp"
+                android:layout_marginLeft="3dp"
+                android:textColor="#000"
+                android:background="@drawable/shape1"
+                android:paddingLeft="4dp"
+                android:id="@+id/des_text"
+                android:gravity="center_vertical"
+                android:layout_toRightOf="@+id/des" />
+
+        </RelativeLayout>
+
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp">
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:background="@drawable/s"
+                android:textSize="14dp"
+                android:textColor="#fff"
+
+
+                android:gravity="center_vertical"
+                android:text="Crate Dims"
+                android:paddingLeft="4dp"
+                android:id="@+id/image"/>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:textSize="12dp"
+                android:layout_marginRight="4dp"
+                android:layout_marginLeft="3dp"
+                android:textColor="#000"
+                android:paddingLeft="4dp"
+                android:background="@drawable/shape1"
+                android:id="@+id/image_text"
+                android:gravity="center_vertical"
+                android:layout_toRightOf="@+id/image"
+                android:text="13.00x48.00x13.00"/>
+
+        </RelativeLayout>
+
+
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp">
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:background="@drawable/s"
+                android:textSize="14dp"
+                android:textColor="#fff"
+
+
+                android:paddingLeft="4dp"
+                android:gravity="center_vertical"
+                android:text="Description"
+                android:id="@+id/date"/>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:textSize="12dp"
+                android:textColor="#000"
+                android:layout_marginRight="4dp"
+                android:layout_marginLeft="3dp"
+                android:paddingLeft="4dp"
+                android:background="@drawable/shape1"
+                android:id="@+id/date_text"
+                android:gravity="center_vertical"
+                android:layout_toRightOf="@+id/date"
+                android:text="Test the Crate"/>
+
+        </RelativeLayout>
+
+
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp">
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:background="@drawable/s"
+                android:textSize="14dp"
+                android:textColor="#fff"
+                android:gravity="center_vertical"
+                android:text="Location"
+
+                android:paddingLeft="4dp"
+                android:id="@+id/status"/>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:textSize="12dp"
+                android:textColor="#000"
+                android:layout_marginRight="4dp"
+                android:layout_marginLeft="3dp"
+
+                android:background="@drawable/shape1"
+                android:text="SD0112"
+                android:paddingLeft="4dp"
+                android:id="@+id/status_text"
+
+                android:gravity="center_vertical"
+                android:layout_toRightOf="@+id/status"
+                />
+
+        </RelativeLayout>
+
+
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp">
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:background="@drawable/s"
+                android:textSize="14dp"
+                android:textColor="#fff"
+                android:paddingLeft="4dp"
+                android:gravity="center_vertical"
+                android:text="Exp. Return Date"
+                android:id="@+id/not"/>
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:textSize="12dp"
+                android:layout_marginRight="4dp"
+                android:layout_marginLeft="3dp"
+                android:textColor="#000"
+                android:paddingLeft="4dp"
+                android:background="@drawable/shape1"
+                android:id="@+id/not_test"
+                android:gravity="center_vertical"
+                android:layout_toRightOf="@+id/not"
+                android:text="06/13/2016"/>
+
+        </RelativeLayout>
+
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp">
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:background="@drawable/s"
+                android:textSize="14dp"
+                android:textColor="#fff"
+                android:paddingLeft="4dp"
+                android:gravity="center_vertical"
+                android:text="Status"
+                android:id="@+id/sta"/>
+
+            <Spinner
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:textSize="12dp"
+                android:layout_marginRight="4dp"
+                android:layout_marginLeft="3dp"
+                android:background="@drawable/shape1"
+                android:id="@+id/sta_text"
+                android:gravity="center_vertical"
+                android:layout_toRightOf="@+id/sta"
+                android:text="Description"/>
+
+        </RelativeLayout>
+
+
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp">
+
+
+            <CheckBox
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+
+                android:textSize="14dp"
+
+
+
+                android:id="@+id/inot_text"
+                android:gravity="center_vertical"
+                android:layout_marginTop="4dp"
+                android:layout_marginLeft="80dp"
+                android:text="Include/Not Included"
+                android:checked="false" />
+
+        </RelativeLayout>
+
+
+
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="3dp">
+
+
+            <TextView
+                android:layout_width="60dp"
+                android:layout_height="35dp"
+                android:background="@drawable/s"
+                android:textSize="14dp"
+                android:textColor="#fff"
+
+                android:textStyle="bold"
+                android:layout_marginBottom="5dp"
+
+                android:id="@+id/view"
+                android:gravity="center"
+                android:layout_marginTop="4dp"
+                android:layout_marginLeft="80dp"
+                android:text="View"/>
+
+        </RelativeLayout>
+
+
+
+
+    </LinearLayout>
+
+</LinearLayout>

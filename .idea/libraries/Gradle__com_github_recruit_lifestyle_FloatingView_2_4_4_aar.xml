@@ -1,0 +1,17 @@
+<component name="libraryTable">
+  <library name="Gradle: com.github.recruit-lifestyle:FloatingView:2.4.4@aar">
+    <ANNOTATIONS>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9d95570ec8311dbaa16418ff3a1c8f23/FloatingView-2.4.4/annotations.zip!/" />
+    </ANNOTATIONS>
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9d95570ec8311dbaa16418ff3a1c8f23/FloatingView-2.4.4/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/9d95570ec8311dbaa16418ff3a1c8f23/FloatingView-2.4.4/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.recruit-lifestyle/FloatingView/2.4.4/18da5aa43e790edf9f4fa9c0d73d8a1f4088f5d6/FloatingView-2.4.4-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.github.recruit-lifestyle/FloatingView/2.4.4/d1eb14d7a79c66ffcc63de9398714336c0e5356a/FloatingView-2.4.4-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

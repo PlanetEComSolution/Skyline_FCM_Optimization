@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <RelativeLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:id="@+id/eusername1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="1sp"
+            android:background="@color/grey" >
+
+            <TextView
+                android:id="@+id/textView1rr"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_centerVertical="true"
+                android:text="Please select one"
+                android:textColor="#FFFFFF"
+                android:textSize="@dimen/headersname" />
+        </RelativeLayout>
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/descriptionofselectedcr"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/relativeLayout1" >
+        <TextView
+            android:id="@+id/nocreates"
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="20sp"
+            android:background="@drawable/gradientimage"
+            android:hint="sdfsfdfsdfdsfdsfdsfdsfdsffdsfd"
+            android:minHeight="40sp"
+            android:paddingLeft="4sp"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textColor="#000000"
+            android:textSize="@dimen/headers" />
+    </RelativeLayout>
+
+    <RelativeLayout
+        android:id="@+id/buttonss"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:orientation="horizontal" >
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/descriptionofselectedcr"
+        android:layout_marginTop="20sp"
+        android:gravity="center"
+        android:orientation="horizontal"
+        android:paddingBottom="8sp"
+        android:weightSum="2"
+        android:id="@+id/linearLayout">
+
+    </LinearLayout>
+
+    <TextView
+        android:id="@+id/Ok"
+        android:layout_width="130dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@color/red"
+        android:padding="5dp"
+        android:gravity="center"
+        android:minHeight="30sp"
+        android:text="Ok"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#FFFFFF"
+        android:textSize="@dimen/headers"
+        android:layout_below="@+id/texrtdesc"
+
+        />
+
+    <TextView
+        android:id="@+id/needcrates"
+        android:layout_width="150dp"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:background="@color/red"
+        android:gravity="center"
+        android:padding="5dp"
+        android:minHeight="30sp"
+        android:text="NO, I need crates! "
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#FFFFFF"
+        android:textSize="@dimen/headers"
+        android:layout_below="@+id/texrtdesc"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_alignBottom="@+id/Ok" />
+
+    <TextView
+        android:id="@+id/texrtdesc"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@drawable/gradientimage"
+        android:hint="Please confirm you are NOT expecting Crates in Inventory."
+        android:minHeight="40sp"
+        android:paddingLeft="4sp"
+        android:textAppearance="?android:attr/textAppearanceMedium"
+        android:textColor="#000000"
+        android:textSize="@dimen/headers"
+        android:layout_below="@+id/descriptionofselectedcr"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true" />
+
+</RelativeLayout>

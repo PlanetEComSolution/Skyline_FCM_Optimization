@@ -1,0 +1,77 @@
+<resources>
+    <string name="app_name">Exhibit Power</string>
+    <string name="action_settings">Settings</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="title_activity_exibitpower">Exibitpower</string>
+    <string name="action_search">Search</string>
+    <string name="search_hint">Type name…</string>
+    <string name="title_activity_homeact">Homeact</string>
+    <string name="title_activity_selectmissing">Selectmissing</string>
+    <string name="title_activity_allmissingcreates">Allmissingcreates</string>
+    <string name="title_activity_userregistat">Userregistat</string>
+    <string name="title_activity_updatecreatelocation">Updatecreatelocation</string>
+    <string name="title_activity_foundscaneract">Foundscaneract</string>
+    <string name="title_activity_danage_refurbish">DanageRefurbish</string>
+    <string name="title_activity_damagw_rubishnewpack">DamagwRubishnewpack</string>
+    <string name="title_activity_damagerefushchart">Damagerefushchart</string>
+    <string name="title_activity_routinestopingwork">Routinestopingwork</string>
+    <string name="title_activity_rubishcratedataupload">Rubishcratedataupload</string>
+    <string name="title_activity_scanforworkstation">Scanforworkstation</string>
+    <string name="title_activity_scanworklocationstart">Scanworklocationstart</string>
+    <string name="title_activity_slot_moveactivity">SlotMoveactivity</string>
+    <string name="title_activity_upload_image_and_cooment">Upload_image_and_cooment</string>
+    <string name="title_activity_upload_at_any_page">Upload_at_any_page</string>
+    <string name="title_activity_show__jobs_">Show_Jobs_Activity</string>
+    <string name="title_activity_web_view">webViewActivity</string>
+    <string name="title_activity_non_billable__list_">NonBillable_List_Activity</string>
+    <string name="title_activity_packing_">Packing_Activity</string>//
+    <string name="crash_toast_text">App crashed ! Please select mailing app and click send to report this error ! </string>
+
+    <!-- for floating view-->
+
+    <string name="chathead_content_title">Exhibit Power</string>
+    <string name="content_text">Clock Running...</string>
+    <string name="mail_content_title">Demo Customize: active</string>
+    <string name="chathead_click_message">Click</string>
+    <string name="delete_demo">Delete Demo</string>
+    <string name="show_demo">Show Simple FloatingView</string>
+    <string name="show_customized_demo">Show Customized FloatingView</string>
+    <string name="show_settings">Initial Settings</string>
+    <string name="permission_denied">Overlay permission not granted.</string>
+    <string name="mail_address">example@example.com</string>
+    <string name="mail_title">Title</string>
+    <string name="mail_content">Message</string>
+    <string name="touch_finished_position" formatted="false">Current position (%d,%d)</string>
+    <string name="deleted_soon">FloatingView will be deleted soon.</string>
+    <string name="finish_deleted">FloatingView has been deleted.</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+
+    <!--floating view-->
+    <!-- for material dialog -->
+    <string name="dialog_default_title">Here\'s a message!</string>
+    <string name="dialog_ok">OK</string>
+    <string name="dialog_cancel">Cancel</string>
+    <string name="LOADING">Loading...</string>
+    <string name="default_progressbar">Default Progressbar:</string>
+    <string name="dones" translatable="false">Done</string>
+    <string name="cancels" translatable="false">Cancel</string>
+    <string name="take_photos" translatable="false">Take a photo</string>
+    <string name="gallerys" translatable="false">"Gallery"</string>
+    <string name="progress_titles" translatable="false">Processing...</string>
+    <string name="dummy_button">Dummy Button</string>
+
+
+    <string name="Loading_text">Loading, Please wait..</string>
+    <string name="Share">Share</string>
+    <string name="upload">Upload</string>
+    <string name="Done">Done</string>
+    <string name="Select_Job">-ALL JOB(S)-</string>
+    <string name="default_floatingview_channel_id">default_floatingview_channel</string>
+    <string name="default_floatingview_channel_name">Default Channel</string>
+    <string name="default_notification_channel_id">my_channel_01</string>
+    <string name="title_activity_usage_charges_list">UsageChargesListActivity</string>
+
+
+</resources>

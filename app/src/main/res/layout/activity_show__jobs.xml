@@ -1,0 +1,287 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    android:layout_width="fill_parent"
+    android:layout_height="match_parent"
+    android:focusableInTouchMode="true"
+    android:nestedScrollingEnabled="true"
+    android:scrollbars="none"
+    android:background="#ffff"
+    android:fillViewport="true"
+    >
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginBottom="5dp"
+        android:layout_above="@+id/register1">
+
+        <LinearLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:gravity="center_horizontal"
+            android:orientation="vertical"
+            android:id="@+id/l1"
+             >
+            <RelativeLayout
+                android:paddingTop="5dp"
+                android:id="@+id/uploadimage"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:background="@drawable/exhibitlogoa"
+                android:layout_gravity="center_vertical"
+                android:clickable="true"
+                android:focusableInTouchMode="true">
+            </RelativeLayout>
+
+
+
+
+            <RelativeLayout
+                android:id="@+id/uploadimage1"
+                android:layout_width="fill_parent"
+                android:layout_height="25dp"
+                android:background="#507CD1"
+                android:clickable="true"
+                android:focusableInTouchMode="true"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="25dp"
+                    android:gravity="center_vertical"
+                    android:text=" Job File(s):"
+
+                    android:textSize="12dp"
+                    android:textColor="#fff"
+                    android:paddingLeft="3dp"
+
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentLeft="true"
+                    android:layout_alignParentStart="true" />
+
+
+            </RelativeLayout>
+            <RelativeLayout
+                android:id="@+id/newlayout"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="#71B4E8">
+                <TextView
+                    android:layout_width="15dp"
+                    android:textSize="10dp"
+                    android:layout_height="40dp"
+
+                    android:textColor="#fff"
+                    android:background="@drawable/s"
+                    android:gravity="center"
+                    android:id="@+id/serial_no"
+                    android:text=" # "/>
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="40dp"
+                    android:layout_toRightOf="@+id/serial_no"
+                    android:id="@+id/source"
+                    android:textColor="#fff"
+                    android:textSize="10dp"
+                    android:background="@drawable/s"
+                    android:gravity="center"
+                    android:text="Source"/>
+
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="40dp"
+                    android:layout_toRightOf="@+id/source"
+                    android:id="@+id/user"
+                    android:textSize="10dp"
+                    android:textColor="#fff"
+                    android:gravity="center"
+                    android:background="@drawable/s"
+                    android:text="User"/>
+
+                <TextView
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:gravity="center"
+                    android:layout_toRightOf="@+id/user"
+                    android:id="@+id/flie_upload"
+                    android:textSize="12dp"
+                    android:background="@drawable/s"
+                    android:textColor="#fff"
+
+                    android:text="File Upload"/>
+                <TextView
+                    android:layout_width="55dp"
+                    android:layout_height="40dp"
+                    android:gravity="center"
+                    android:layout_toRightOf="@+id/flie_upload"
+                    android:id="@+id/date_upload"
+                    android:textSize="10dp"
+                    android:background="@drawable/s"
+                    android:textColor="#fff"
+
+                    android:text="Date Uploaded"/>
+                <TextView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_toRightOf="@+id/date_upload"
+                    android:id="@+id/view_file"
+                    android:textSize="10dp"
+                    android:background="@drawable/s"
+                    android:textColor="#fff"
+                    android:gravity="center"
+                    android:text="View File"/>
+
+
+                <TextView
+                    android:layout_width="65dp"
+                    android:layout_height="40dp"
+                    android:layout_toRightOf="@+id/view_file"
+                    android:id="@+id/download_file"
+                    android:textSize="10dp"
+                    android:textColor="#fff"
+                    android:background="@drawable/s"
+                    android:gravity="center"
+                    android:text="Download File"/>
+
+            </RelativeLayout>
+
+
+            <ListView
+                android:id="@+id/cart_listview"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:dividerHeight="1dp"
+                android:scrollbars="none"
+                android:divider="#000"
+                />
+
+
+            <RelativeLayout
+                android:id="@+id/uploadimage2"
+                android:layout_width="fill_parent"
+                android:layout_height="25dp"
+                android:background="#507CD1"
+                android:clickable="true"
+                android:layout_marginTop="10dp"
+
+                android:focusableInTouchMode="true"
+                android:layout_alignParentTop="true"
+                android:layout_centerHorizontal="true">
+                <TextView
+                    android:layout_width="wrap_content"
+                    android:layout_height="25dp"
+                    android:gravity="center"
+                    android:text="Client File(s)"
+                    android:paddingLeft="3dp"
+                    android:textStyle="bold"
+                    android:textSize="12dp"
+                    android:textColor="#fff"
+                    android:layout_alignParentLeft="true"
+                    android:layout_centerVertical="true"
+                    android:layout_centerHorizontal="true" />
+
+
+            </RelativeLayout>
+
+            <RelativeLayout
+                android:id="@+id/newlayout1"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:background="#71B4E8">
+                <TextView
+                    android:layout_width="15dp"
+                    android:textSize="10dp"
+                    android:layout_height="40dp"
+
+                    android:textColor="#fff"
+                    android:background="@drawable/s"
+                    android:gravity="center"
+                    android:id="@+id/serial_no1"
+                    android:text=" # "/>
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="40dp"
+                    android:layout_toRightOf="@+id/serial_no1"
+                    android:id="@+id/source1"
+                    android:textColor="#fff"
+                    android:textSize="10dp"
+                    android:background="@drawable/s"
+                    android:gravity="center"
+                    android:text="Source"/>
+
+                <TextView
+                    android:layout_width="50dp"
+                    android:layout_height="40dp"
+                    android:layout_toRightOf="@+id/source1"
+                    android:id="@+id/user1"
+                    android:textSize="10dp"
+                    android:textColor="#fff"
+                    android:gravity="center"
+                    android:background="@drawable/s"
+                    android:text="User"/>
+
+                <TextView
+                    android:layout_width="80dp"
+                    android:layout_height="40dp"
+                    android:gravity="center"
+                    android:layout_toRightOf="@+id/user1"
+                    android:id="@+id/flie_upload1"
+                    android:textSize="12dp"
+                    android:background="@drawable/s"
+                    android:textColor="#fff"
+
+                    android:text="File Upload"/>
+                <TextView
+                    android:layout_width="55dp"
+                    android:layout_height="40dp"
+                    android:gravity="center"
+                    android:layout_toRightOf="@+id/flie_upload1"
+                    android:id="@+id/date_upload1"
+                    android:textSize="10dp"
+                    android:background="@drawable/s"
+                    android:textColor="#fff"
+
+                    android:text="Date Uploaded"/>
+                <TextView
+                    android:layout_width="40dp"
+                    android:layout_height="40dp"
+                    android:layout_toRightOf="@+id/date_upload1"
+                    android:id="@+id/view_file1"
+                    android:textSize="10dp"
+                    android:background="@drawable/s"
+                    android:textColor="#fff"
+                    android:gravity="center"
+                    android:text="View File"/>
+
+
+                <TextView
+                    android:layout_width="65dp"
+                    android:layout_height="40dp"
+                    android:layout_toRightOf="@+id/view_file1"
+                    android:id="@+id/download_file1"
+                    android:textSize="10dp"
+                    android:textColor="#fff"
+                    android:background="@drawable/s"
+                    android:gravity="center"
+                    android:text="Download File"/>
+
+            </RelativeLayout>
+
+
+            <ListView
+                android:id="@+id/discountlistview"
+                android:layout_width="fill_parent"
+                android:layout_marginBottom="10dp"
+                android:scrollbars="none"
+                android:divider="#000"
+                android:dividerHeight="1dp"
+                android:layout_below="@+id/cart_listview"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</ScrollView>

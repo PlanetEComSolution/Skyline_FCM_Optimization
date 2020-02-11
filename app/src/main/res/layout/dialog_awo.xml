@@ -1,0 +1,106 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:padding="20dp">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:orientation="vertical">
+
+        <TextView
+            style="@style/style_DialogTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+
+            android:layout_gravity="center_horizontal"
+
+
+            android:text="AWO(s) List"
+
+            />
+
+        <View
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:background="@color/btn_text_sky_blue" />
+
+        <TextView
+            android:id="@+id/_text_noJObs"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginTop="20dp"
+            android:layout_marginBottom="20dp"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="No AWO Available!"
+            android:textSize="18dp"
+
+            android:visibility="gone" />
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_weight="1"
+            android:orientation="vertical">
+
+            <RadioGroup
+                android:id="@+id/radioGroup"
+                android:layout_width="match_parent"
+
+
+                android:layout_height="match_parent" />
+        </ScrollView>
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_weight="1"
+        android:layout_marginTop="10dp"
+        android:gravity="center_horizontal"
+        android:orientation="horizontal">
+
+
+        <Button
+            android:id="@+id/btn_back"
+            android:layout_width="match_parent"
+            android:layout_height="35dp"
+            android:layout_gravity="center"
+android:layout_weight="1"
+            android:layout_marginRight="2dp"
+            android:background="@drawable/round_corner_btn2_new"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="Back"
+            android:textAllCaps="false"
+            android:textColor="@color/btn_text_sky_blue"
+            android:textSize="@dimen/headers" />
+
+        <Button
+            android:id="@+id/btn_Done"
+            android:layout_width="match_parent"
+            android:layout_weight="1"
+            android:layout_height="35dp"
+            android:layout_gravity="center"
+            android:layout_marginLeft="2dp"
+            android:background="@drawable/round_corner_btn2_new"
+            android:gravity="center"
+            android:padding="5dp"
+            android:text="Next"
+            android:textAllCaps="false"
+
+            android:textColor="@color/btn_text_sky_blue"
+            android:textSize="@dimen/headers" />
+    </LinearLayout>
+</LinearLayout>
+
+

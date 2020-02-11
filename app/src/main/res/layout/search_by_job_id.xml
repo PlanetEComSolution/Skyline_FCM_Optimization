@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="10dp"
+    android:orientation="vertical">
+    <ImageView
+        android:id="@+id/close"
+        android:elevation="10dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="5sp"
+        android:layout_marginRight="8dp"
+        android:src="@drawable/cancell" />
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_marginTop="30dp"
+    android:layout_width="match_parent"
+    android:id="@+id/ll"
+    android:layout_height="wrap_content"
+    android:orientation="horizontal">
+
+</LinearLayout>
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/ll1"
+        android:layout_below="@id/ll"
+        android:orientation="horizontal">
+
+        <TextView
+            android:layout_width="104dp"
+            android:layout_height="wrap_content"
+            android:textSize="13dp"
+            android:background="@color/grey"
+            android:padding="5dp"
+            android:gravity="center"
+
+            android:textColor="#ffff"
+            android:text="Job"/>
+        <EditText
+            android:layout_width="fill_parent"
+            android:layout_height="37dp"
+            android:padding="5dp"
+            android:layout_margin="5dp"
+            android:id="@+id/job_spinner_id">
+
+        </EditText>
+    </LinearLayout>
+
+    <Button
+        android:layout_width="140dp"
+        android:layout_height="wrap_content"
+        android:background="@color/red"
+        android:padding="5dp"
+        android:gravity="center"
+        android:layout_gravity="center_horizontal"
+        android:textStyle="bold"
+        android:textColor="#ffff"
+        android:elevation="20dp"
+        android:layout_margin="10dp"
+        android:text="Submit"
+        android:layout_below="@+id/ll1"
+        android:layout_centerHorizontal="true"
+        android:id="@+id/submit_btn" />
+
+</RelativeLayout>

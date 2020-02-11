@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+       <color name="red">#ee2d39</color>
+       <color name="green">#9ccb3b</color>
+       <color name="grey">#58595b</color>
+       <color name="lightgrey">#abacad</color>
+       <color name="color_toolbar_2">#009688</color>
+
+       <color name="gray_btn_bg_color">#58595b</color>
+
+       <color name="colorPrimary">#0091ea</color>
+       <color name="colorAccent">#16C3F7</color>
+       <color name="colorPrimaryDark">#0064b7</color>
+       <color name="primaryTextColor">#505050</color>
+       <!--nks-->
+       <color name="main_green_color">#6bd505</color>
+       <color name="main_orange_light_color">#f7b90d</color>
+     <!--  <color name="primaryTextColorDark">#32CD32</color>-->
+       <color name="primaryTextColorDark">#353535</color>
+
+
+      <!-- <color name="tab_selected">@color/color_toolbar_2</color>'
+       <color name="tab_unselected">#00b6b6</color>-->
+       <color name="tab_selected">@color/btn_circle</color>'
+       <color name="tab_unselected">@color/btn_circle_light</color>
+
+       <color name="yellow">#e8ec12</color>
+       <color name="yellow_clock">#FFEE58</color>
+       <color name="yellow_clock1">#FFF9C4</color>
+
+       <color name="btn_text_color">#3F51B5</color>
+       <color name="btn_bg">#00BFA5</color>
+       <color name="btn_pressed_bg">#62f7e3</color>
+       <color name="splash_bg">#007dc5</color>
+       <color name="btn_bg_color">#CD0A41</color>
+       <color name="btn_text_sky_blue">#16C3F7</color>
+       <color name="text_color_new">#39373C</color>
+       <color name="skyblue_light">#55E6FA</color>
+       <color name="skyblue_deep">#14D7F8</color>
+       <color name="Summer_Skyblue">#3BA0F3</color>
+       <color name="Curious_Blue">#388FD9</color>
+       <color name="Curious_Blue_">#2486CB</color>
+      <!-- <color name="red_new">#E12E42</color>-->
+       <color name="red_new">#e07747</color>
+       <color name="white">#FFFFFF</color>
+       <color name="home_bg_color">#F6FDFF</color>
+       <color name="Pattens_Blue">#CFF5FF</color>
+       <color name="sweetalert_orangecolor">#e07747</color>
+
+       <color name="btn_circle">#67b3ed</color>
+
+       <color name="btn_circle_light">#8fcbf9</color>
+       <color name="black_overlay">#66000000</color>
+       <color name="background">#FAFAFA </color>
+       <color name="transparent">@android:color/transparent</color>
+       <color name="snoozed">#bdb76b </color>
+       <!--nks-->
+       <color name="icon_color">@color/colorAccent</color>
+       <color name="path_color">#f0ad4e</color>
+       <color name="green_material">#26A69A</color>
+       <color name="red_material">#EF5350</color>
+       <color name="yellow_material">#BA68C8</color>
+       <color name="orange_material">#FFB74D</color>
+       <color name="teal_material">#4DB6AC</color>
+       <color name="green_material2">#43A047</color>
+
+       <color name="task_plan_row_bg">@android:color/transparent</color>
+       <color name="textvw_value">@android:color/tab_indicator_text</color>
+
+       <color name="textvw_label">@android:color/secondary_text_light</color>
+
+</resources>

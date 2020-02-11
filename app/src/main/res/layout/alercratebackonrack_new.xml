@@ -1,0 +1,167 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/mains"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+
+
+  >
+
+    <LinearLayout
+        android:id="@+id/relativeLayout1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+
+        <LinearLayout
+            android:id="@+id/linerfortime"
+            android:layout_width="match_parent"
+            android:layout_height="80sp"
+            android:background="#ADE3F0"
+
+            android:orientation="horizontal"
+            android:paddingLeft="5dp"
+            android:paddingRight="5dp">
+
+            <ImageView
+                android:id="@+id/merchantname"
+                android:layout_width="70dp"
+                android:layout_height="40sp"
+                android:layout_gravity="left|center_vertical"
+                android:src="@drawable/exhibitlogoa" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_weight="1">
+
+                <TextView
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:text="Finished with Job"
+
+                    android:textColor="@color/btn_text_sky_blue"
+                    android:textSize="@dimen/headersname" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:layout_width="wrap_content"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:orientation="vertical">
+
+                <ImageView
+                    android:id="@+id/missing"
+                    android:layout_width="70dp"
+                    android:layout_height="40sp"
+
+                    />
+
+
+                <TextView
+                    android:id="@+id/textView1"
+                    android:layout_width="70dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center"
+                    android:gravity="center"
+                    android:visibility="gone"
+                    android:textColor="@color/btn_text_sky_blue"
+                    android:textSize="15sp" />
+
+
+            </LinearLayout>
+
+
+            <ImageView
+                android:id="@+id/homeacti"
+                android:layout_width="35dp"
+                android:layout_height="35dp"
+                android:layout_gravity="end|center_vertical"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="10dp"
+                android:src="@drawable/homeblue"
+
+                android:visibility="visible" />
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:gravity="center"
+        android:padding="5dp"
+        android:layout_below="@+id/relativeLayout1"
+
+        >
+
+        <TextView
+            android:id="@+id/texrtdesc"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginLeft="2dp"
+            android:layout_marginTop="20sp"
+            android:gravity="center"
+            android:text="Are you sure that you want to put the Crate(s) back on the Rack?"
+            android:textAppearance="?android:attr/textAppearanceMedium"
+            android:textSize="@dimen/headers"
+            android:textStyle="bold" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+             android:layout_marginTop="20sp"
+            android:gravity="center"
+            android:orientation="vertical"
+
+
+            android:paddingLeft="30dp"
+            android:paddingRight="30dp"
+            >
+
+            <Button
+                android:id="@+id/Btn_No"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+                android:layout_gravity="center"
+
+
+                android:background="@drawable/round_corner_btn2_new"
+                android:gravity="center"
+                android:text=" No, scan another Crate "
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/btn_text_sky_blue"
+                android:textSize="13sp" />
+
+
+            <Button
+                android:id="@+id/Btn_Yes"
+                android:layout_width="match_parent"
+                android:layout_height="40dp"
+
+                android:layout_marginTop="10dp"
+                android:background="@drawable/round_corner_btn2_new"
+                android:gravity="center"
+                android:text=" Yes, scan the new Bin/Freight Vendor/Area "
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textColor="@color/btn_text_sky_blue"
+                android:textSize="13sp" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+
+
+
+
+</RelativeLayout>

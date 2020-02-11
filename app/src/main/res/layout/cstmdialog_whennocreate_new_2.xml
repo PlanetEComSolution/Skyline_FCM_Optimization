@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_vertical"
+    android:gravity="center"
+    android:orientation="vertical">
+
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_centerInParent="true">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_margin="10dp"
+            android:background="@drawable/corner_round"
+            android:gravity="center"
+            android:orientation="vertical"
+            android:padding="16dp">
+
+            <!---add your views here-->
+
+            <LinearLayout
+
+                android:layout_width="330dp"
+                android:layout_height="match_parent"
+                android:gravity="center"
+                android:layout_marginBottom="10dp"
+                android:layout_marginTop="10dp"
+
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/nocreates"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:gravity="center"
+                    android:text=" Continue tracking time for this job while I search for crates"
+                    android:padding="5dp"
+                    android:textStyle="normal"
+
+                    android:textSize="16sp" />
+                <TextView
+
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:gravity="center"
+                    android:text="OR"
+                    android:padding="5dp"
+                    android:textStyle="bold"
+
+                    android:textSize="16sp" />
+                <TextView
+                    android:id="@+id/texrtdesc"
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+
+                    android:gravity="center"
+                    android:text="Stop the Job while I search for crates"
+                    android:padding="5dp"
+
+
+                    android:textSize="16sp" />
+
+                <LinearLayout
+                    android:layout_marginTop="10dp"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                  android:gravity="center_horizontal"
+                    android:orientation="horizontal"
+
+                    android:paddingBottom="5dp"
+                    >
+
+
+                <TextView
+                    android:id="@+id/Ok"
+                    android:layout_width="140dp"
+                    android:layout_height="35dp"
+
+                    android:gravity="center"
+                    android:textSize="15sp"
+                    android:background="@drawable/round_corner_btn2_new"
+                    android:text="Continue"
+
+                    android:textColor="@color/btn_text_sky_blue"
+
+                    />
+                    <View android:layout_width="5dp"
+                        android:layout_height="match_parent"
+
+                        />
+                    <TextView
+                        android:id="@+id/needcrates"
+                        android:layout_width="140dp"
+                        android:layout_height="35dp"
+
+                        android:gravity="center"
+                        android:textSize="15sp"
+                        android:background="@drawable/round_corner_btn2_new"
+                        android:text="Stop"
+                        android:textColor="@color/btn_text_sky_blue"
+
+                        />
+                </LinearLayout>
+            </LinearLayout>
+        </LinearLayout>
+
+        <ImageView
+            android:id="@+id/close"
+            android:layout_width="30dp"
+            android:layout_height="30dp"
+            android:layout_gravity="top|right"
+            android:clickable="true"
+            android:src="@drawable/error_1" />
+    </FrameLayout>
+
+</LinearLayout>

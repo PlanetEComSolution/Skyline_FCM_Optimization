@@ -1,0 +1,94 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_gravity="center_vertical"
+    android:gravity="center"
+    android:orientation="vertical">
+
+
+
+
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_marginLeft="5dp"
+                    android:layout_marginRight="5dp"
+                    android:orientation="horizontal">
+
+
+                    <android.support.design.widget.TextInputLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_margin="@dimen/activity_horizontal_margin">
+
+
+                        <AutoCompleteTextView
+                            android:id="@+id/company"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+
+                            android:hint="Enter Company"
+                            android:maxLines="1"
+                            android:paddingLeft="5dp"
+                            android:paddingRight="5dp"
+                            android:textColor="#000"
+                            android:textColorHint="@color/btn_text_sky_blue"
+                            android:textSize="15sp"
+
+                            />
+                    </android.support.design.widget.TextInputLayout>
+                </LinearLayout>
+
+
+
+                <LinearLayout
+
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:paddingLeft="40dp"
+                    android:paddingRight="40dp">
+
+                    <Button
+                        android:id="@+id/go_button"
+                        android:layout_width="match_parent"
+                        android:layout_height="35dp"
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/round_corner_btn2_new"
+                        android:gravity="center"
+
+                        android:text="Go"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@color/btn_text_sky_blue"
+                        android:textSize="@dimen/headers" />
+
+                    <TextView
+                        android:id="@+id/or"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="center_horizontal"
+                        android:layout_marginTop="5dp"
+                        android:gravity="center"
+                        android:text="OR"
+                        android:textSize="16dp"
+                        android:textStyle="normal"
+                        android:visibility="gone" />
+
+                    <Button
+                        android:id="@+id/Scann"
+                        android:layout_width="match_parent"
+                        android:layout_height="35dp"
+                        android:layout_marginTop="5dp"
+                        android:background="@drawable/round_corner_btn2_new"
+                        android:gravity="center"
+                        android:text="Scan SWO"
+                        android:textAppearance="?android:attr/textAppearanceMedium"
+                        android:textColor="@color/btn_text_sky_blue"
+                        android:textSize="@dimen/headers"
+                        android:visibility="gone" />
+                </LinearLayout>
+
+
+</LinearLayout>

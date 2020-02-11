@@ -1,0 +1,155 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:id="@+id/ln"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_gravity="center" >
+
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content" >
+
+        <FrameLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center" >
+
+            <FrameLayout
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="15dp" >
+
+                <LinearLayout
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginBottom="40dp"
+                    android:background="@drawable/corner_round"
+                    android:orientation="vertical" >
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="35dp"
+                        android:gravity="center"
+                        android:text="Attach"
+                        android:textColor="#008238"
+                        android:textSize="18sp"
+                        android:layout_marginTop="5dp"
+                        android:textStyle="bold" />
+                    <LinearLayout
+                        android:layout_width="270dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="15dp"
+                        android:gravity="center"
+                        android:orientation="horizontal"
+                        android:padding="25dp" >
+
+                        <LinearLayout
+                            android:layout_width="match_parent"
+                            android:layout_height="match_parent"
+                            android:layout_marginBottom="20dp"
+                            android:layout_marginLeft="5dp"
+                            android:layout_marginRight="5dp"
+                            android:gravity="center"
+                            android:orientation="vertical" >
+
+
+                            <LinearLayout
+                                android:layout_width="match_parent"
+                                android:layout_height="match_parent"
+                                android:gravity="center_horizontal"
+                                android:orientation="horizontal"
+                                >
+                            <LinearLayout
+                                android:id="@+id/cameralayout"
+                                android:layout_width="80dp"
+                                android:layout_height="wrap_content"
+                                android:layout_marginRight="2sp"
+
+                                android:clickable="true"
+                                android:layout_weight="1"
+                                android:orientation="vertical" >
+
+
+
+
+                                <ImageView
+
+                                    android:layout_width="40dp"
+                                    android:layout_height="40dp"
+                                    android:layout_gravity="center_vertical|center_horizontal"
+                                    android:background="@drawable/camera1" />
+
+                                <TextView
+
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+
+                                    android:layout_gravity="center_vertical|center_horizontal"
+                                    android:textColor="#000000"
+                                    android:text="Camera" />
+
+                            </LinearLayout>
+
+                            <LinearLayout
+                                android:id="@+id/gallarylayout"
+                                android:layout_width="80dp"
+                                android:layout_height="wrap_content"
+                                android:clickable="true"
+                                android:layout_marginRight="2sp"
+                                android:layout_marginLeft="2sp"
+
+                                android:layout_weight="1"
+                                android:orientation="vertical" >
+                                <ImageView
+
+                                    android:layout_width="40dp"
+                                    android:layout_height="40dp"
+                                    android:layout_gravity="center_vertical|center_horizontal"
+                                    android:background="@drawable/gallary" />
+
+                                <TextView
+
+                                    android:layout_width="wrap_content"
+                                    android:layout_height="wrap_content"
+
+                                    android:layout_gravity="center_vertical|center_horizontal"
+                                    android:textColor="#000000"
+                                    android:text="Gallery" />
+                            </LinearLayout>
+
+                            </LinearLayout>
+
+
+                        </LinearLayout>
+                    </LinearLayout>
+
+                    <!--  -->
+
+
+                    <!--  -->
+
+                </LinearLayout>
+
+                <!--  -->
+
+
+                <!--  -->
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content" >
+                </LinearLayout>
+            </FrameLayout>
+
+            <ImageView
+                android:id="@+id/cross"
+                android:layout_width="30dp"
+                android:layout_height="30dp"
+                android:layout_gravity="right|top"
+                android:contentDescription="s"
+                android:src="@drawable/error_1"
+                android:visibility="visible"
+                 />
+        </FrameLayout>
+    </FrameLayout>
+
+</RelativeLayout>

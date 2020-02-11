@@ -1,0 +1,14 @@
+<component name="libraryTable">
+  <library name="Gradle: com.wdullaer:materialdatetimepicker:3.5.0@aar">
+    <CLASSES>
+      <root url="jar://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/871a4f2a76a7ae5e845b3fc8bb5eb821/materialdatetimepicker-3.5.0/jars/classes.jar!/" />
+      <root url="file://$USER_HOME$/.gradle/caches/transforms-2/files-2.1/871a4f2a76a7ae5e845b3fc8bb5eb821/materialdatetimepicker-3.5.0/res" />
+    </CLASSES>
+    <JAVADOC>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.wdullaer/materialdatetimepicker/3.5.0/c3a9dcffb17dab269280b9c4f2d3d6e942289d43/materialdatetimepicker-3.5.0-javadoc.jar!/" />
+    </JAVADOC>
+    <SOURCES>
+      <root url="jar://$USER_HOME$/.gradle/caches/modules-2/files-2.1/com.wdullaer/materialdatetimepicker/3.5.0/24041a60e96515efcdaa3db0c25d0fa0e482b9b0/materialdatetimepicker-3.5.0-sources.jar!/" />
+    </SOURCES>
+  </library>
+</component>

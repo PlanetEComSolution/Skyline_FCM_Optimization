@@ -1,0 +1,393 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="7f19a17d-624e-44e8-961d-569f8f3a28ae" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/../../../../../.idea/codeStyles/Project.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/planet/info/skyline/RequestControler/MyAsyncTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/planet/info/skyline/RequestControler/ResponseInterface.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/planet/info/skyline/adapter/AllJobsAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/planet/info/skyline/adapter/JobNameAdapterNew2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/planet/info/skyline/adapter/LocateCrateAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/planet/info/skyline/adapter/MyDividerItemDecoration.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/planet/info/skyline/adapter/RecyclerBaseAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/planet/info/skyline/adapter/VendorsAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/planet/info/skyline/adapter/VendorsAdapterListener.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/planet/info/skyline/model/All_Jobs.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/planet/info/skyline/model/Attachment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/planet/info/skyline/model/Checklist.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/planet/info/skyline/model/DamageDetail.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/planet/info/skyline/model/Entry.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/planet/info/skyline/model/ItemType.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/planet/info/skyline/model/Job_2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/planet/info/skyline/model/LaborCode.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/planet/info/skyline/model/PausedJob.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/planet/info/skyline/model/Role.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/planet/info/skyline/model/SWO.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/planet/info/skyline/model/SWO_Details.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/planet/info/skyline/model/TaskFile.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/planet/info/skyline/model/TaskPlan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/planet/info/skyline/model/Technician.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/planet/info/skyline/network/Api.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/planet/info/skyline/network/REST_API_Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/planet/info/skyline/network/REST_API_Client_TaskPlan.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/planet/info/skyline/network/SOAP_API_Client.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/planet/info/skyline/tech/choose_job_company/SelectCompanyActivityNew.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/planet/info/skyline/tech/damage_report/Adapter_DamageReport.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/planet/info/skyline/tech/damage_report/DamageReportNew.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/planet/info/skyline/tech/job_files_new/JobFilesTabActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/planet/info/skyline/tech/job_files_new/JobFiles_Fragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/planet/info/skyline/tech/job_files_new/ProjectPhotos_Fragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/planet/info/skyline/tech/job_files_new/ProofRenders_Fragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/planet/info/skyline/tech/job_files_new/SectionsPagerAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/planet/info/skyline/tech/job_files_new/ShowClientFiles_Fragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/planet/info/skyline/tech/job_files_new/ShowJobFiles_Fragment_new.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/planet/info/skyline/tech/job_files_new/ShowProjectFile_Fragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/planet/info/skyline/tech/shared_preference/Shared_Preference.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/planet/info/skyline/tech/swo/SwoListActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/planet/info/skyline/tech/task_plan/AttachmentListActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/planet/info/skyline/tech/task_plan/ChecklistActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/planet/info/skyline/tech/task_plan/CompleteTaskActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/planet/info/skyline/tech/task_plan/CompletedTaskDetailActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/planet/info/skyline/tech/task_plan/CompletedTask_Fragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/planet/info/skyline/tech/task_plan/OverdueTask_Fragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/planet/info/skyline/tech/task_plan/TaskPlanMainActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/planet/info/skyline/tech/task_plan/TaskPlanPagerAdapter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/planet/info/skyline/tech/task_plan/TaskPlanTabActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/planet/info/skyline/tech/task_plan/TechnicianListActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/planet/info/skyline/tech/task_plan/Todays_Future_Task_Fragment.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../../java/planet/info/skyline/tech/usage_charges/VendorsListActivity.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../drawable/calendar_schedular.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../drawable/ic_access_time_black_24dp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../drawable/ic_arrow_back_black_24dp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../drawable/ic_assignment_black_24dp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../drawable/ic_assignment_turned_in_black_24dp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../drawable/ic_assignment_turned_in_grey_24dp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../drawable/ic_assignment_turned_in_silver_24dp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../drawable/ic_attachment_black_24dp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../drawable/ic_check_black_24dp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../drawable/ic_check_green_128dp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../drawable/ic_launcher_foreground.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../drawable/ic_person_outline_black_24dp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../drawable/ic_today_black_24dp.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../drawable/linked.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../drawable/round_shape_blue.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../drawable/shape.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../drawable/shape2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../drawable/strike_through.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/activity_attachment_list.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/activity_checklist.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/activity_complete_task_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/activity_complete_task_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/activity_completed_task_detail_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/activity_service_list_tab.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/activity_tab_task_plan.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/activity_task_plan_main.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/activity_tech_list.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/activity_usage_charges_update.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/activity_vendors_list.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/content_swo_list.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/damage_report_new.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/dialog_swo_awo.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fragment_client_files.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fragment_job_files.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fragment_project_files.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fragment_task_plan.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/fragment_whats_inside.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/row_attachment.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/row_attachment_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/row_checklist.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/row_checklist_2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/row_complete_task.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/row_complete_task_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/row_incomplete_task.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/row_incomplete_task_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/row_item_vendor.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/row_job_files_new_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/row_swo.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/row_tech.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/row_techs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/swo_list.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/test_new.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../menu/menu_vendor.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/../xml/searchable.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../build.gradle" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../release/app-release.apk" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../release/app-release.apk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../release/output.json" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../release/output.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../AndroidManifest.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../../AndroidManifest.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/planet/info/skyline/Allmissingcreates.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/planet/info/skyline/old_activity/Allmissingcreates.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/planet/info/skyline/AppConstants.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/planet/info/skyline/old_activity/AppConstants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/planet/info/skyline/BaseActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/planet/info/skyline/old_activity/BaseActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/planet/info/skyline/Click_Dialog.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/planet/info/skyline/old_activity/Click_Dialog.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/planet/info/skyline/ClientLeavingWithCrate.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/planet/info/skyline/tech/billable_timesheet/ClientLeavingWithCrate.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/planet/info/skyline/Constants.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/planet/info/skyline/old_activity/Constants.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/planet/info/skyline/CustomMultiPartEntity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/planet/info/skyline/old_activity/CustomMultiPartEntity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/planet/info/skyline/DamageReport.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/planet/info/skyline/tech/damage_report/DamageReport.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/planet/info/skyline/Damagerefushchart.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/planet/info/skyline/old_activity/Damagerefushchart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/planet/info/skyline/DamagwRubishnewpack.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/planet/info/skyline/old_activity/DamagwRubishnewpack.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/planet/info/skyline/Exibitpower.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/planet/info/skyline/old_activity/Exibitpower.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/planet/info/skyline/Foundscaneract.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/planet/info/skyline/old_activity/Foundscaneract.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/planet/info/skyline/FullscreenImageView.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/planet/info/skyline/tech/fullscreenview/FullscreenImageView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/planet/info/skyline/FullscreenWebView.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/planet/info/skyline/tech/fullscreenview/FullscreenWebView.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/planet/info/skyline/FullscreenWebViewNew.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/planet/info/skyline/tech/fullscreenview/FullscreenWebViewNew.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/planet/info/skyline/LocateCrates.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/planet/info/skyline/tech/locate_crates/LocateCrates.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/planet/info/skyline/LoginActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/planet/info/skyline/home/LoginActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/planet/info/skyline/MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/planet/info/skyline/home/MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/planet/info/skyline/NonBillable_List_Activity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/planet/info/skyline/old_activity/NonBillable_List_Activity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/planet/info/skyline/NonBillable_jobs.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/planet/info/skyline/tech/non_billable_timesheet/NonBillable_jobs.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/planet/info/skyline/Packing_Activity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/planet/info/skyline/old_activity/Packing_Activity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/planet/info/skyline/ProjectFileDetailActivityNonClient.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/planet/info/skyline/tech/job_files_new/ProjectFileDetailActivityNonClient.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/planet/info/skyline/Routinestopingwork.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/planet/info/skyline/old_activity/Routinestopingwork.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/planet/info/skyline/Rubishcratedataupload.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/planet/info/skyline/old_activity/Rubishcratedataupload.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/planet/info/skyline/Scanforworkstation.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/planet/info/skyline/tech/billable_timesheet/SubmitTimesheet.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/planet/info/skyline/Scanworklocationstart.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/planet/info/skyline/old_activity/Scanworklocationstart.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/planet/info/skyline/SelectCompanyActivity.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/planet/info/skyline/SelectCompanyActivityNew.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/planet/info/skyline/Select_Company_job.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/planet/info/skyline/Selectmissing.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/planet/info/skyline/old_activity/Selectmissing.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/planet/info/skyline/SharePhotosToClientActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/planet/info/skyline/tech/job_files_new/SharePhotosToClientActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/planet/info/skyline/ShowJobFiles_Fragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/planet/info/skyline/tech/job_files_old/ShowJobFiles_Fragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/planet/info/skyline/ShowWhatsInside_Activity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/planet/info/skyline/tech/whats_inside/ShowWhatsInside_Activity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/planet/info/skyline/ShowWhatsInside_Fragment.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/planet/info/skyline/tech/whats_inside/ShowWhatsInside_Fragment.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/planet/info/skyline/ShowWhatsInside_MainActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/planet/info/skyline/tech/whats_inside/ShowWhatsInside_MainActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/planet/info/skyline/ShowWhatsInside_sub.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/planet/info/skyline/tech/whats_inside/ShowWhatsInside_sub.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/planet/info/skyline/Show_Jobs_Activity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/planet/info/skyline/tech/job_files_old/Show_Jobs_Activity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/planet/info/skyline/Show_Jobs_Activity_New.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/planet/info/skyline/tech/job_files_old/Show_Jobs_Activity_New.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/planet/info/skyline/Shutingoff.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/planet/info/skyline/old_activity/Shutingoff.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/planet/info/skyline/Shutingon.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/planet/info/skyline/old_activity/Shutingon.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/planet/info/skyline/SlotMoveactivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/planet/info/skyline/tech/material_move/SlotMoveactivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/planet/info/skyline/SplashActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/planet/info/skyline/home/SplashActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/planet/info/skyline/SubmitClockTime.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/planet/info/skyline/tech/billable_timesheet/Clock_Submit_Type_Activity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/planet/info/skyline/TimeSheetList1Activity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/planet/info/skyline/tech/update_timesheet/TimeSheetList1Activity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/planet/info/skyline/Updatecreatelocation.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/planet/info/skyline/old_activity/Updatecreatelocation.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/planet/info/skyline/Upload_at_any_page.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/planet/info/skyline/old_activity/Upload_at_any_page.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/planet/info/skyline/Upload_image_and_cooment.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/planet/info/skyline/tech/upload_photo/Upload_image_and_cooment_New.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/planet/info/skyline/UsageChargesListActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/planet/info/skyline/tech/usage_charges/UsageChargesListActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/planet/info/skyline/UsageChargesUpdateActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/planet/info/skyline/tech/usage_charges/UsageChargesUpdateActivityNew.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/planet/info/skyline/Utils1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/planet/info/skyline/old_activity/Utils1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/planet/info/skyline/ZoomInZoomOut.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/planet/info/skyline/old_activity/ZoomInZoomOut.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/planet/info/skyline/adapter/Adapter_Crates_WhatsInside.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/planet/info/skyline/adapter/Adapter_Crates_WhatsInside.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/planet/info/skyline/adapter/Adapter_Elements_WhatsInside.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/planet/info/skyline/adapter/Adapter_Elements_WhatsInside.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/planet/info/skyline/adapter/Adapter_Graphics_WhatsInside.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/planet/info/skyline/adapter/Adapter_Graphics_WhatsInside.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/planet/info/skyline/adapter/Allmissingadapt.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/planet/info/skyline/adapter/Allmissingadapt.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/planet/info/skyline/adapter/CompanyNameAdapterNew.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/planet/info/skyline/adapter/CompanyNameAdapterNew2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/planet/info/skyline/adapter/HomeCreateAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/planet/info/skyline/adapter/HomeCreateAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/planet/info/skyline/adapter/JobNameAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/planet/info/skyline/adapter/PausedJob_ListAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/planet/info/skyline/adapter/JobNameAdapterNew.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/planet/info/skyline/adapter/Missingcreateadapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/planet/info/skyline/adapter/Missingcreateadapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/planet/info/skyline/adapter/SelectClientUser_ListAdapter.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/planet/info/skyline/adapter/SelectClientUser_ListAdapter.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/planet/info/skyline/adapter/TabsPagerAdapter_ShowJobFiles.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/planet/info/skyline/adapter/TabsPagerAdapter_ShowJobFiles.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/planet/info/skyline/client/ClientFileDetailActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/planet/info/skyline/client/ClientFileDetailActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/planet/info/skyline/client/ClientFilesActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/planet/info/skyline/client/ClientFilesActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/planet/info/skyline/client/ClientHomeActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/planet/info/skyline/client/ClientHomeActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/planet/info/skyline/client/Client_Events.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/planet/info/skyline/client/Client_Events.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/planet/info/skyline/client/DashboardActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/planet/info/skyline/client/DashboardActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/planet/info/skyline/client/DashboardDetailActivity_EP1.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/planet/info/skyline/client/DashboardDetailActivity_EP1.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/planet/info/skyline/client/DashboardDetailActivity_EP2.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/planet/info/skyline/client/DashboardDetailActivity_EP2.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/planet/info/skyline/client/HelpActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/planet/info/skyline/client/HelpActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/planet/info/skyline/client/MyAccountActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/planet/info/skyline/client/MyAccountActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/planet/info/skyline/client/ProjectFileDetailActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/planet/info/skyline/client/ProjectFileDetailActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/planet/info/skyline/client/ProjectFilesActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/planet/info/skyline/client/ProjectFilesActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/planet/info/skyline/client/ProjectPhotoDetailActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/planet/info/skyline/client/ProjectPhotoDetailActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/planet/info/skyline/client/ProjectPhotosActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/planet/info/skyline/client/ProjectPhotosActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/planet/info/skyline/client/ProofRenders_DetailActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/planet/info/skyline/client/ProofRenders_DetailActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/planet/info/skyline/client/Proof_RendersActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/planet/info/skyline/client/Proof_RendersActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/planet/info/skyline/client/UpdateUserInfoActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/planet/info/skyline/client/UpdateUserInfoActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/planet/info/skyline/client/UserListActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/planet/info/skyline/client/UserListActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/planet/info/skyline/fcm/MyFirebaseMessagingService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/planet/info/skyline/fcm/MyFirebaseMessagingService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/planet/info/skyline/floating_view/ChatHeadService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/planet/info/skyline/floating_view/ChatHeadService.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/planet/info/skyline/model/Awo.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/planet/info/skyline/model/Awo.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/planet/info/skyline/model/Client.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/planet/info/skyline/model/ClientModel.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/planet/info/skyline/model/ClientUser.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/planet/info/skyline/model/ClientUser.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/planet/info/skyline/retrofit_multipart/ApiService.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/planet/info/skyline/network/API_Interface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/planet/info/skyline/retrofit_multipart/ProgressRequestBody.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/planet/info/skyline/network/ProgressRequestBody.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/planet/info/skyline/util/Utility.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/planet/info/skyline/util/Utility.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/planet/info/skyline/util/Utils.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/planet/info/skyline/util/Utils.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../java/planet/info/skyline/webViewActivity.java" beforeDir="false" afterPath="$PROJECT_DIR$/../../java/planet/info/skyline/old_activity/webViewActivity.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/activity_allmissingcreates.xml" beforeDir="false" afterPath="$PROJECT_DIR$/activity_allmissingcreates.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/activity_allmissingcreates_new.xml" beforeDir="false" afterPath="$PROJECT_DIR$/activity_allmissingcreates_new.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/activity_damagerefushchart.xml" beforeDir="false" afterPath="$PROJECT_DIR$/activity_damagerefushchart.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/activity_damagw_rubishnewpack.xml" beforeDir="false" afterPath="$PROJECT_DIR$/activity_damagw_rubishnewpack.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/activity_danage_refurbish.xml" beforeDir="false" afterPath="$PROJECT_DIR$/activity_danage_refurbish.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/activity_danage_refurbish_new.xml" beforeDir="false" afterPath="$PROJECT_DIR$/activity_danage_refurbish_new.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/activity_exibitpower.xml" beforeDir="false" afterPath="$PROJECT_DIR$/activity_exibitpower.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/activity_foundscaneract.xml" beforeDir="false" afterPath="$PROJECT_DIR$/activity_foundscaneract.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/activity_homeact.xml" beforeDir="false" afterPath="$PROJECT_DIR$/activity_homeact.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/activity_launcher.xml" beforeDir="false" afterPath="$PROJECT_DIR$/activity_launcher.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/activity_main.xml" beforeDir="false" afterPath="$PROJECT_DIR$/activity_main.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/activity_main2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/activity_main2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/activity_non_billable__list.xml" beforeDir="false" afterPath="$PROJECT_DIR$/activity_non_billable__list.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/activity_packing.xml" beforeDir="false" afterPath="$PROJECT_DIR$/activity_packing.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/activity_routinestopingwork.xml" beforeDir="false" afterPath="$PROJECT_DIR$/activity_routinestopingwork.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/activity_rubishcratedataupload.xml" beforeDir="false" afterPath="$PROJECT_DIR$/activity_rubishcratedataupload.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/activity_rubishcratedataupload_new.xml" beforeDir="false" afterPath="$PROJECT_DIR$/activity_rubishcratedataupload_new.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/activity_rubishcratedataupload_new_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/activity_rubishcratedataupload_new_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/activity_scanforworkstation.xml" beforeDir="false" afterPath="$PROJECT_DIR$/activity_scanforworkstation.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/activity_scanworklocationstart.xml" beforeDir="false" afterPath="$PROJECT_DIR$/activity_scanworklocationstart.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/activity_select_company.xml" beforeDir="false" afterPath="$PROJECT_DIR$/activity_select_company.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/activity_selectmissing.xml" beforeDir="false" afterPath="$PROJECT_DIR$/activity_selectmissing.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/activity_selectmissing_new.xml" beforeDir="false" afterPath="$PROJECT_DIR$/activity_selectmissing_new.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/activity_slot_moveactivity.xml" beforeDir="false" afterPath="$PROJECT_DIR$/activity_slot_moveactivity.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/activity_updatecreatelocation.xml" beforeDir="false" afterPath="$PROJECT_DIR$/activity_updatecreatelocation.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/activity_upload_image_and_cooment.xml" beforeDir="false" afterPath="$PROJECT_DIR$/activity_upload_image_and_cooment.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/activity_usage_charges_list.xml" beforeDir="false" afterPath="$PROJECT_DIR$/activity_usage_charges_list.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alercratebackonrack_new.xml" beforeDir="false" afterPath="$PROJECT_DIR$/alercratebackonrack_new.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/alertfornamemobilenumber_new.xml" beforeDir="false" afterPath="$PROJECT_DIR$/alertfornamemobilenumber_new.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/content_usage_charges_list.xml" beforeDir="false" afterPath="$PROJECT_DIR$/content_usage_charges_list.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dialog_searchby_new.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dialog_searchby_new.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dialog_yes_no.xml" beforeDir="false" afterPath="$PROJECT_DIR$/dialog_yes_no.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/fragment_fragment__show_job_files.xml" beforeDir="false" afterPath="$PROJECT_DIR$/fragment_fragment__show_job_files.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/list_row_recent_transac_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/list_row_recent_transac_2.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/project_file_path.xml" beforeDir="false" afterPath="$PROJECT_DIR$/project_file_path.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/row_clients_new.xml" beforeDir="false" afterPath="$PROJECT_DIR$/row_clients_new.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/row_job_files_new.xml" beforeDir="false" afterPath="$PROJECT_DIR$/row_job_files_new.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/row_missing_crates_new.xml" beforeDir="false" afterPath="$PROJECT_DIR$/row_missing_crates_new.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/swo_list_dialog_new.xml" beforeDir="false" afterPath="$PROJECT_DIR$/swo_list_dialog_new.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test1_new.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test1_new.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/test2_new.xml" beforeDir="false" afterPath="$PROJECT_DIR$/test2_new.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../menu/menu_sharefiles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../menu/menu_sharefiles.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../values/Colurs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../values/Colurs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../values/strings.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../values/strings.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../values/styles.xml" beforeDir="false" afterPath="$PROJECT_DIR$/../values/styles.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/../../../../../multipleimageselect/build.gradle" beforeDir="false" afterPath="$PROJECT_DIR$/../../../../../multipleimageselect/build.gradle" afterDir="false" />
+    </list>
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/../../../../.." />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="width" value="1440" />
+    <option name="height" value="860" />
+  </component>
+  <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
+  <component name="ProjectView">
+    <navigator currentView="ProjectPane" proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="layout" type="b2602c69:ProjectViewProjectNode" />
+              <item name="layout" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+      <pane id="PackagesPane" />
+      <pane id="Scope" />
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="android.sdk.path" value="$USER_HOME$/AppData/Local/Android/Sdk" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="AndroidSdkUpdater" />
+    <property name="settings.editor.splitter.proportion" value="0.2199688" />
+    <property name="show.migrate.to.gradle.popup" value="false" />
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="RunManager">
+    <configuration default="true" type="JUnit" factoryName="JUnit">
+      <extension name="coverage" enabled="false" merge="false" sample_coverage="true" runner="idea" />
+      <module name="" />
+      <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <option name="PACKAGE_NAME" />
+      <option name="MAIN_CLASS_NAME" />
+      <option name="METHOD_NAME" />
+      <option name="TEST_OBJECT" value="class" />
+      <option name="VM_PARAMETERS" value="-ea" />
+      <option name="PARAMETERS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <option name="ENV_VARIABLES" />
+      <option name="PASS_PARENT_ENVS" value="true" />
+      <option name="TEST_SEARCH_SCOPE">
+        <value defaultName="singleModule" />
+      </option>
+      <envs />
+      <patterns />
+      <method />
+    </configuration>
+    <configuration name="&lt;template&gt;" type="#org.jetbrains.idea.devkit.run.PluginConfigurationType" default="true" selected="false">
+      <option name="VM_PARAMETERS" value="-Xmx512m -Xms256m -XX:MaxPermSize=250m -ea" />
+    </configuration>
+    <configuration default="true" type="Applet">
+      <option name="POLICY_FILE" value="$APPLICATION_HOME_DIR$/bin/appletviewer.policy" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="Application" factoryName="Application">
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration default="true" type="TestNG">
+      <option name="TEST_OBJECT" value="CLASS" />
+      <option name="WORKING_DIRECTORY" value="$MODULE_DIR$" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="7f19a17d-624e-44e8-961d-569f8f3a28ae" name="Default Changelist" comment="" />
+      <created>1574846459849</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1574846459849</updated>
+    </task>
+    <servers />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="-8" y="-8" width="1456" height="876" extended-state="6" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" visible="true" weight="0.32561505" />
+      <window_info id="Structure" side_tool="true" />
+      <window_info id="Image Layers" />
+      <window_info id="Designer" />
+      <window_info id="Resources Explorer" />
+      <window_info id="Capture Tool" />
+      <window_info id="Favorites" side_tool="true" />
+      <window_info id="Captures" order="0" weight="0.25" />
+      <window_info anchor="bottom" id="Version Control" />
+      <window_info anchor="bottom" id="TODO" />
+      <window_info anchor="bottom" id="Run" />
+      <window_info anchor="bottom" id="Debug" />
+      <window_info anchor="bottom" id="Terminal" />
+      <window_info anchor="bottom" id="Event Log" side_tool="true" />
+      <window_info anchor="bottom" id="Flutter Performance" side_tool="true" />
+      <window_info anchor="right" id="Capture Analysis" />
+      <window_info anchor="right" id="Theme Preview" />
+      <window_info anchor="right" id="Flutter Inspector" />
+      <window_info anchor="right" id="Flutter Outline" />
+      <window_info anchor="right" id="Palette&#9;" />
+      <window_info anchor="right" id="Codota" />
+    </layout>
+  </component>
+</project>

@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "407834542650",
+    "firebase_url": "https://skylinenew-d429a.firebaseio.com",
+    "project_id": "skylinenew-d429a",
+    "storage_bucket": "skylinenew-d429a.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:407834542650:android:1ed430c46b211183",
+        "android_client_info": {
+          "package_name": "planet.info.skyline"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "407834542650-vbb40guedv1k63cnl3d0d5bqhd0nhe1c.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "planet.info.skyline",
+            "certificate_hash": "19da8728119cefb7514520b78028c82fe3233654"
+          }
+        },
+        {
+          "client_id": "407834542650-q2rfnj9m4g2f3aegqr6k81mm0gab95cq.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAywEQ5Kd14NSH_nEoz_qDYgwdAkBGuACs"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "407834542650-q2rfnj9m4g2f3aegqr6k81mm0gab95cq.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

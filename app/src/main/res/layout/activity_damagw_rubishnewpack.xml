@@ -1,0 +1,326 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+
+
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    tools:context=".old_activity.DamagwRubishnewpack">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <RelativeLayout
+            android:id="@+id/relativeLayout1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:id="@+id/linerfortime"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:weightSum="3">
+
+                <ImageView
+                    android:id="@+id/merchantname"
+                    android:layout_width="100sp"
+                    android:layout_height="40sp"
+                    android:layout_alignParentLeft="true"
+                    android:layout_gravity="right"
+                    android:layout_marginLeft="-10sp"
+                    android:layout_weight="2"
+
+                    />
+
+                <TextView
+                    android:id="@+id/timer"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignBottom="@+id/merchantname"
+                    android:layout_alignParentRight="true"
+                    android:layout_toRightOf="@+id/merchantname"
+                    android:layout_weight="1"
+                    android:gravity="right"
+                    android:lines="2"
+                    android:maxLines="2"
+                    android:text="Time Clock 00:00"
+                    android:textAppearance="?android:attr/textAppearanceMedium"
+                    android:textSize="@dimen/clientname" />
+            </LinearLayout>
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/eusername"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/relativeLayout1">
+
+            <ImageView
+                android:id="@+id/missing"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:background="@drawable/ic_launcher"
+                android:gravity="center"
+                android:text="Missing Crates "
+                android:visibility="gone" />
+
+            <TextView
+                android:id="@+id/textView1"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_centerVertical="true"
+                android:text="Hallieburton’s Crates"
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="@dimen/clientname" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/eusername1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/eusername"
+            android:layout_marginTop="10sp"
+            android:background="@drawable/gradientimage">
+
+            <TextView
+                android:id="@+id/textView1rr"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+
+                android:layout_centerVertical="true"
+                android:text="Crate's updated location "
+
+                android:textAppearance="?android:attr/textAppearanceMedium"
+                android:textSize="@dimen/clientname" />
+        </RelativeLayout>
+
+        <RelativeLayout
+            android:id="@+id/oklayout"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/eusername1"
+            android:layout_marginTop="10sp">
+
+            <RelativeLayout
+
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+
+                android:layout_marginTop="10sp">
+
+                <LinearLayout
+                    android:id="@+id/first"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:weightSum="3"
+
+                    >
+
+                    <TextView
+                        android:id="@+id/textView2t"
+                        android:layout_width="0sp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1.9"
+                        android:singleLine="true"
+                        android:text="Damage/Refurbish Report"
+                        android:textSize="@dimen/clientname" />
+
+                    <EditText
+                        android:id="@+id/editText1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight=".1"
+                        android:editable="false"
+                        android:visibility="invisible">
+
+
+                    </EditText>
+
+                    <ImageView
+                        android:id="@+id/selectvis"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_gravity="right"
+                        android:layout_weight="1"
+
+
+                        />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/first1"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/first"
+                    android:layout_marginTop="10sp"
+                    android:weightSum="3">
+
+                    <TextView
+                        android:id="@+id/textView2t1"
+                        android:layout_width="0sp"
+                        android:layout_height="fill_parent"
+                        android:layout_weight="1.9"
+                        android:singleLine="true"
+                        android:text="Pro-forma Packaging list"
+                        android:textSize="@dimen/clientname" />
+
+                    <EditText
+                        android:id="@+id/editText11"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight=".1"
+                        android:editable="false"
+                        android:visibility="invisible">
+
+                    </EditText>
+
+                    <ImageView
+                        android:id="@+id/selectvis1"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+
+                        />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/first2"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/first1"
+                    android:layout_marginTop="10sp"
+                    android:weightSum="3"
+
+                    >
+
+                    <TextView
+                        android:id="@+id/textView2t2"
+                        android:layout_width="0sp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.9"
+                        android:singleLine="true"
+                        android:text="OTC packaging list"
+                        android:textSize="@dimen/clientname" />
+
+                    <EditText
+                        android:id="@+id/editText12"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight=".1"
+                        android:editable="false"
+                        android:visibility="invisible">
+
+
+                    </EditText>
+
+                    <ImageView
+                        android:id="@+id/selectvis2"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+
+                        />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/first3"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/first2"
+                    android:layout_marginTop="10sp"
+                    android:weightSum="3"
+
+                    >
+
+                    <TextView
+                        android:id="@+id/textView2t22"
+                        android:layout_width="0sp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1.9"
+                        android:singleLine="true"
+                        android:text="New packaging list"
+                        android:textSize="@dimen/clientname" />
+
+                    <EditText
+                        android:id="@+id/editText13"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight=".1"
+                        android:editable="false"
+                        android:visibility="invisible">
+
+
+                    </EditText>
+
+                    <ImageView
+                        android:id="@+id/selectvis3"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+
+                        />
+
+                </LinearLayout>
+
+
+            </RelativeLayout>
+        </RelativeLayout>
+
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/oklayout"
+            android:layout_marginTop="10sp"
+            android:gravity="center"
+            android:minHeight="50sp"
+            android:weightSum="3">
+
+            <TextView
+
+                android:id="@+id/gobacktosca"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:background="@color/grey"
+                android:gravity="center"
+                android:minHeight="25dip"
+                android:minWidth="36dip"
+                android:scaleType="center"
+                android:text="Stop   Work"
+                android:textSize="@dimen/clientname" />
+
+            <TextView
+                android:id="@+id/gomissi"
+                android:layout_width="wrap_content"
+                android:layout_height="fill_parent"
+                android:layout_marginLeft="5sp"
+                android:layout_weight="1"
+                android:adjustViewBounds="true"
+                android:background="@color/grey"
+                android:gravity="center"
+                android:minHeight="25sp"
+                android:minWidth="36sp"
+                android:scaleType="center"
+                android:text="Finished with job"
+                android:textSize="@dimen/clientname" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+</RelativeLayout>

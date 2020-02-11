@@ -1,0 +1,597 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingBottom="@dimen/activity_vertical_margin"
+    android:paddingLeft="@dimen/activity_horizontal_margin"
+    android:paddingRight="@dimen/activity_horizontal_margin"
+    android:paddingTop="@dimen/activity_vertical_margin"
+    android:scrollbars="none"
+    tools:context="planet.info.skyline.old_activity.Packing_Activity">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <RelativeLayout
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="90dp"
+                android:layout_height="30dp"
+                android:text="Client Name"
+                android:id="@+id/t1"/>
+            <Spinner
+                android:layout_width="fill_parent"
+                android:layout_height="30dp"
+                android:background="@drawable/shape1"
+                android:id="@+id/spinner"
+                android:layout_toRightOf="@+id/t1"
+                >
+            </Spinner>
+        </RelativeLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_marginTop="4dp"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="90dp"
+                android:layout_height="30dp"
+                android:text="Job"
+
+                android:id="@+id/t2"/>
+
+            <Spinner
+                android:layout_width="fill_parent"
+                android:layout_height="30dp"
+android:background="@drawable/shape1"
+                android:id="@+id/spinner1"
+                android:layout_alignParentTop="true"
+                android:layout_toRightOf="@+id/t2"
+               >
+
+            </Spinner>
+            <Button
+                android:layout_width="70dp"
+                android:layout_height="40dp"
+                android:layout_below="@+id/t2"
+                android:textSize="13dp"
+                android:layout_marginBottom="4dp"
+
+                android:background="#507CD1"
+                android:textColor="#fff"
+                android:layout_marginTop="4dp"
+                android:text="Search"
+                android:id="@+id/button"
+                android:layout_marginLeft="90dp"/>
+
+        </RelativeLayout>
+
+
+
+    </LinearLayout>
+
+
+<LinearLayout
+    android:orientation="vertical"
+    android:layout_width="wrap_content"
+    android:background="@drawable/shape1"
+    android:layout_height="wrap_content">
+
+    <TextView
+        android:layout_width="fill_parent"
+        android:layout_height="40dp"
+        android:gravity="center_vertical"
+
+        android:paddingLeft="5dp"
+        android:background="#507CD1"
+        android:textColor="#fff"
+
+        android:textSize="17dp"
+        android:text="Exhibit for Job 16-3712"/>
+
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content">
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="40dp"
+            android:background="@drawable/shape1">
+
+
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="40dp"
+                android:textSize="12dp"
+                android:background="@drawable/s"
+                android:textColor="#fff"
+                android:gravity="center"
+                android:text="Exhibit Type"
+                android:id="@+id/exbit"/>
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="40dp"
+                android:textSize="12dp"
+                android:background="@drawable/s"
+                android:textColor="#fff"
+                android:id="@+id/exbit1"
+                android:gravity="center"
+                android:layout_toRightOf="@+id/exbit"
+                android:text="Exhibit Size"/>
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="40dp"
+                android:textSize="12dp"
+                android:background="@drawable/s"
+                android:textColor="#fff"
+                android:id="@+id/exbit2"
+                android:gravity="center"
+                android:layout_toRightOf="@+id/exbit1"
+                android:text="In/Out Free"/>
+
+
+            <TextView
+                android:layout_width="90dp"
+                android:layout_height="40dp"
+                android:textSize="12dp"
+                android:background="@drawable/s"
+                android:textColor="#fff"
+                android:id="@+id/exbit3"
+                android:gravity="center"
+                android:layout_toRightOf="@+id/exbit2"
+                android:text="Thumbnial Images"/>
+
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="40dp"
+                android:textSize="12dp"
+                android:background="@drawable/s"
+                android:textColor="#fff"
+                android:id="@+id/exbit4"
+                android:gravity="center"
+                android:layout_toRightOf="@+id/exbit3"
+                android:text="Descripition"/>
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp">
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            >
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:textSize="12dp"
+                android:gravity="center"
+                android:id="@+id/ex"/>
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:textSize="12dp"
+                android:id="@+id/ex1"
+                android:gravity="center"
+                android:layout_toRightOf="@+id/ex"
+                android:text="20x30"/>
+
+            <TextView
+                android:layout_width="50dp"
+                android:layout_height="wrap_content"
+                android:textSize="12dp"
+                android:id="@+id/ex2"
+                android:gravity="center"
+                android:layout_toRightOf="@+id/ex1"
+                android:text="NA"/>
+
+
+            <ImageView
+                android:layout_width="90dp"
+                android:layout_height="80dp"
+                android:textSize="12dp"
+                android:background="@drawable/shape1"
+                android:id="@+id/ex3"
+                android:gravity="center"
+                android:layout_toRightOf="@+id/ex2"
+                android:text="Thumbnial Images"/>
+
+
+            <TextView
+                android:layout_width="80dp"
+                android:layout_height="wrap_content"
+                android:textSize="12dp"
+                android:id="@+id/ex4"
+                android:gravity="center"
+                android:layout_toRightOf="@+id/ex3"
+                android:text="Check for graphics"/>
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="4dp"
+        android:background="@drawable/shape1">
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#9E9E9E"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:text="Elements List"
+                android:textSize="16dp"
+                android:textColor="#000"
+
+                android:layout_marginLeft="4dp"
+                android:gravity="center"
+                android:id="@+id/elemet"/>
+
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:textColor="#000"
+
+                android:id="@+id/include"
+                android:gravity="center"
+                android:text="Include/Not Include"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+
+        <ListView
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="@drawable/shape1"
+            android:divider="#000"
+            android:dividerHeight="2dp"
+            android:id="@+id/exp1">
+
+        </ListView>
+    </LinearLayout>
+
+
+
+
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+
+        android:background="@drawable/shape1">
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+            android:background="#9E9E9E"
+            >
+
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="40dp"
+                android:textSize="16dp"
+                android:textColor="#000"
+                android:text="Graphics List"
+
+                android:layout_marginLeft="4dp"
+                android:gravity="center"
+                android:id="@+id/elemet_graphic"/>
+
+
+            <TextView
+                android:layout_width="120dp"
+                android:layout_height="wrap_content"
+                android:textSize="16dp"
+                android:textColor="#000"
+                android:id="@+id/include_graphic"
+                android:gravity="center"
+                android:text="Include/Not Include"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+        </RelativeLayout>
+
+    </LinearLayout>
+
+
+    <ListView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="3dp"
+        android:background="@drawable/shape1"
+        android:divider="#000"
+        android:dividerHeight="2dp"
+        android:id="@+id/grapic_list">
+
+    </ListView>
+
+</LinearLayout>
+
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_marginTop="3dp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:gravity="center_vertical"
+                android:background="#507CD1"
+                android:textColor="#fff"
+                android:paddingLeft="5dp"
+                android:textSize="17dp"
+                android:text="List of Accessories for Job 16-3712"/>
+
+
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+                <RelativeLayout
+                    android:layout_width="fill_parent"
+                    android:layout_height="40dp"
+                    android:background="@drawable/shape1">
+                    <TextView
+                        android:layout_width="80dp"
+                        android:layout_height="40dp"
+                        android:textSize="12dp"
+                        android:background="@drawable/s"
+                        android:textColor="#fff"
+                        android:gravity="center"
+                        android:text="Accessories ID"
+                        android:id="@+id/exbit0"/>
+
+                    <TextView
+                        android:layout_width="60dp"
+                        android:layout_height="40dp"
+                        android:textSize="12dp"
+                        android:background="@drawable/s"
+                        android:textColor="#fff"
+                        android:id="@+id/exbit01"
+                        android:gravity="center"
+                        android:layout_toRightOf="@+id/exbit0"
+                        android:text="Description"/>
+
+                    <TextView
+                        android:layout_width="40dp"
+                        android:layout_height="40dp"
+                        android:textSize="12dp"
+                        android:background="@drawable/s"
+                        android:textColor="#fff"
+                        android:id="@+id/exbit02"
+                        android:gravity="center"
+                        android:layout_toRightOf="@+id/exbit01"
+                        android:text="Qty"/>
+
+
+                    <TextView
+                        android:layout_width="70dp"
+                        android:layout_height="40dp"
+                        android:textSize="12dp"
+                        android:background="@drawable/s"
+                        android:textColor="#fff"
+                        android:id="@+id/exbit03"
+                        android:gravity="center"
+                        android:layout_toRightOf="@+id/exbit02"
+                        android:text="Image"/>
+
+
+                    <TextView
+                        android:layout_width="80dp"
+                        android:layout_height="40dp"
+                        android:textSize="12dp"
+                        android:id="@+id/exbit04"
+                        android:background="@drawable/s"
+                        android:textColor="#fff"
+                        android:gravity="center"
+                        android:layout_toRightOf="@+id/exbit03"
+                        android:text="Not Included"/>
+                </RelativeLayout>
+
+            </LinearLayout>
+            <ListView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shape1"
+                android:id="@+id/exp">
+
+            </ListView>
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_marginTop="4dp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:gravity="center_vertical"
+                android:background="#507CD1"
+                android:textColor="#fff"
+
+                android:paddingLeft="5dp"
+                android:textSize="17dp"
+                android:text="List of Collateral for Job 16-3712"/>
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+            </LinearLayout>
+            <ListView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shape1"
+                android:id="@+id/exp3">
+            </ListView>
+        </LinearLayout>
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_marginTop="4dp"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:background="#507CD1"
+                android:textColor="#fff"
+                android:gravity="center_vertical"
+
+                android:paddingLeft="5dp"
+                android:textSize="17dp"
+                android:text="List of Crates for Job 16-3712 "/>
+
+
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+            </LinearLayout>
+            <ListView
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:background="@drawable/shape1"
+                android:id="@+id/listView1">
+
+            </ListView>
+        </LinearLayout>
+
+
+
+
+
+
+        <LinearLayout
+            android:orientation="vertical"
+            android:layout_width="fill_parent"
+            android:layout_marginTop="4dp"
+            android:background="@drawable/shape1"
+            android:layout_height="wrap_content">
+
+            <TextView
+                android:layout_width="fill_parent"
+                android:layout_height="40dp"
+                android:background="#507CD1"
+                android:textColor="#fff"
+                android:gravity="center_vertical"
+
+                android:paddingLeft="5dp"
+                android:textSize="17dp"
+                android:text="Add more item in this packing list(s) "/>
+
+
+
+            <LinearLayout
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content">
+
+            </LinearLayout>
+            <EditText
+                android:layout_width="fill_parent"
+                android:layout_height="70dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginLeft="4dp"
+                android:layout_marginRight="4dp"
+                android:gravity="start"
+                android:textSize="12dp"
+                android:background="@drawable/shape1"
+                android:id="@+id/write_editer">
+
+            </EditText>
+
+            <Button
+                android:layout_width="60dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="4dp"
+                android:layout_marginLeft="14dp"
+                android:layout_marginRight="10dp"
+                android:text="Save"
+                android:background="#507CD1"
+                android:textColor="#fff"
+
+                android:id="@+id/save">
+
+            </Button>
+
+
+
+            <Button
+                android:layout_width="160dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginLeft="74dp"
+                android:layout_marginRight="10dp"
+                android:text="Add More"
+                android:background="#507CD1"
+                android:textColor="#fff"
+                android:id="@+id/add_item">
+
+            </Button>
+
+
+
+
+
+            <Button
+                android:layout_width="160dp"
+                android:layout_height="40dp"
+                android:layout_marginTop="30dp"
+                android:layout_marginLeft="74dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginBottom="5dp"
+                android:text="Finish"
+                android:background="#507CD1"
+                android:textColor="#fff"
+                android:id="@+id/finish">
+
+            </Button>
+        </LinearLayout>
+
+
+    </LinearLayout>
+
+
+</ScrollView>
